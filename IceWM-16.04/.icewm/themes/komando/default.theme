@@ -1,0 +1,104 @@
+ThemeName="komando"
+ThemeDescription="A simple blue theme for iceWM inspired in Taringa colors"
+ThemeAuthor="Ren Canteros Sousa <ren.kudun@gmail.com>"
+License="GPL"
+Look=flat
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleBarJustify=50
+TitleBarCentered=0
+RolloverButtonsSupported=1
+
+TitleBarHeight=19
+BorderSizeX=4
+BorderSizeY=4
+CornerSizeX=22
+CornerSizeY=22
+DlgBorderSizeX=4
+DlgBorderSizeY=4
+
+ShowMenuButtonIcon=1 # 0/1
+
+ColorNormalBorder="rgb:4a/9b/e1"
+ColorActiveBorder="rgb:4a/9b/e1"
+ColorActiveTitleBar="rgb:4a/9b/e1"
+ColorNormalTitleBar="rgb:4a/9b/e1"
+ColorNormalTitleBarText="rgb:ff/ff/ff"
+ColorActiveTitleBarText="rgb:ff/ff/ff"
+ColorActiveTitleBarShadow="rgb:89/aa/cd"
+ColorNormalButton="rgb:4a/9b/e1"
+ColorActiveButton="rgb:4a/9b/e1"
+
+ColorNormalMenu="#e6e6e6"
+ColorActiveMenuItem="rgb:B4/C2/D4"
+ColorNormalMenuItemText="black"
+ColorActiveMenuItemText="white"
+ColorDisabledMenuItemText="rgb:80/80/80"
+
+ColorClock="black"
+ColorClockText="rgb:b1/dc/24"
+
+ColorMoveSizeStatus="rgb:00/98/e8"
+ColorMoveSizeStatusText="white"
+
+ColorDefaultTaskBar="#3398e7"
+ColorNormalTaskBarApp="#B4C2D4"
+ColorNormalTaskBarAppText="#000000"
+ColorActiveTaskBarApp="#0098e8"
+ColorActiveTaskBarAppText="white"
+ColorMinimizedTaskBarApp="#6E88AA"
+ColorMinimizedTaskBarAppText="#000000"
+
+ColorActiveWorkspaceButtonText="white"
+
+ColorToolTip="rgb:f5/f5/f5"
+ColorToolTipText="rgb:00/65/95"
+ColorLabel="rgb:f5/f5/f5"
+ColorLabelText="rgb:00/65/95"
+
+ColorCPUStatusUser="rgb:b0/dc/23"
+ColorCPUStatusSystem="rgb:c5/10/17"
+ColorCPUStatusNice="rgb:38/78/a6"
+ColorCPUStatusIdle="rgb:00/37/50"
+ColorNetSend="rgb:95/c4/16"
+ColorNetReceive="rgb:f2/5c/9b"
+ColorNetIdle="rgb:00/37/50"
+
+ColorListBox="white"
+ColorListBoxText="black"
+ColorListBoxSelection="#499ae0"
+ColorListBoxSelectionText="white"
+
+ColorScrollBar="#499ae0"
+ColorScrollBarSlider="#499ae0"
+ColorScrollBarButton="#499ae0"
+ColorScrollBarButtonArrow="white"
+
+ColorQuickSwitch="white"
+ColorQuickSwitchText="black"
+ColorQuickSwitchActive="rgb:4a/9b/e1"
+
+DesktopBackgroundColor="#89b6ec"
+#DesktopBackgroundCenter = 0
+#DesktopBackgroundScaled = 0
+#DesktopBackgroundImage = 0
+
+TitleFontNameXft="droid sans:size=10"
+MenuFontNameXft="droid sans:size=10"
+StatusFontNameXft="droid sans:size=10"
+QuickSwitchFontNameXft="droid sans:size=10"
+NormalButtonFontNameXft="droid sans:size=10"
+ActiveButtonFontNameXft="droid sans:size=10"
+NormalTaskBarFontNameXft="droid sans:size=10"
+ActiveTaskBarFontNameXft="droid sans:size=10"
+ToolButtonFontNameXft="droid sans:size=10"
+NormalWorkspaceFontNameXft="droid sans:size=10"
+ActiveWorkspaceFontNameXft="droid sans:size=10"
+MinimizedWindowFontNameXft="droid sans:size=10"
+ListBoxFontNameXft="droid sans:size=10"
+ToolTipFontNameXft="droid sans:size=10"
+ClockFontNameXft="droid sans:size=10"
+ApmFontNameXft="droid sans:size=10"
+InputFontNameXft="droid sans:size=10"
+LabelFontNameXft="droid sans:size=10"

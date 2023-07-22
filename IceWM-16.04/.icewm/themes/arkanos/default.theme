@@ -1,0 +1,108 @@
+ThemeName="arkanos"
+ThemeDescription="Un tema con colores invernales para IceWM"
+ThemeAuthor="Ren Canteros Sousa <ren.kudun@gmail.com>"
+License="GPL"
+Look=flat
+
+RolloverButtonsSupported=1
+MenuMouseTracking=1 
+TitleBarHeight=18
+TitleBarCentered=1
+TitleBarJustify=50
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="xmis"
+ShowMenuButtonIcon=1 # 0/1
+
+BorderSizeX=4
+BorderSizeY=2
+CornerSizeX=22
+CornerSizeY=22
+DlgBorderSizeX=4
+DlgBorderSizeY=2
+
+TaskBarClockLeds=0
+ColorClock=""
+ColorClockText="black"
+
+TrayDrawBevel=1
+
+ColorDefaultTaskBar="#ebebeb"
+ColorNormalTaskBarApp="#ebebeb"
+ColorNormalTaskBarAppText="#0e0e0e"
+ColorActiveTaskBarApp="#ebebeb"
+ColorActiveTaskBarAppText="white"
+ColorMinimizedTaskBarApp="#ebebeb"
+ColorMinimizedTaskBarAppText="#0e0e0e"
+ColorActiveWorkspaceButtonText="white"
+ColorNormalWorkspaceButtonText="#0e0e0e"
+
+ColorQuickSwitch="#ebebeb"
+ColorQuickSwitchText="#525252"
+ColorQuickSwitchActive="#84c3eb"
+
+ColorNormalMenu="#efefef"
+ColorActiveMenuItem="#84c3eb"
+ColorNormalMenuItemText="#525252"
+ColorActiveMenuItemText="white"
+ColorDisabledMenuItemText="#7f9ab7"
+
+ColorCPUStatusUser="#6aa4e0"
+ColorCPUStatusSystem="#007eff"
+ColorCPUStatusNice="#6aa4e0"
+ColorCPUStatusIdle="black"
+ColorNet="#bdbcbc"
+ColorNetSend="#bdbcbc"
+ColorNetReceive="#007eff"
+ColorNetIdle="black"
+
+DesktopBackgroundColor="#484d6b"
+#DesktopBackgroundCenter=1 # 0 / 1
+#DesktopBackgroundScaled=1 # 0 / 1
+#DesktopBackgroundImage=""
+
+ColorNormalBorder="#cbcbcb"
+ColorActiveBorder="#cbcbcb"
+
+ColorActiveTitleBar="#cbcbcb"
+ColorNormalTitleBar="#cbcbcb"
+ColorNormalButton="#cbcbcb"
+ColorActiveButton="#cbcbcb"
+ColorNormalTitleBarText="#4f4c47"
+ColorActiveTitleBarText="#191a1c"
+
+ColorMoveSizeStatus="#84c3eb"
+ColorMoveSizeStatusText="white"
+
+ColorListBox="#ebebeb"
+ColorListBoxText="#939da9"
+ColorListBoxSelection="#84c3eb"
+ColorListBoxSelectionText="white"
+ColorScrollBar="#ebebeb"
+ColorScrollBarSlider="#ebebeb"
+ColorScrollBarButton="#ebebeb"
+ColorScrollBarButtonArrow="#84c3eb"
+
+ColorToolTip="#f9f9f9"
+ColorToolTipText="#525252"
+ColorLabel="#f9f9f9"
+ColorLabelText="#525252"
+
+TitleFontNameXft="droid sans:size=10:bold"
+MenuFontNameXft="droid sans:size=10"
+StatusFontNameXft="droid sans:size=10"
+QuickSwitchFontNameXft="droid sans:size=10"
+NormalButtonFontNameXft="droid sans:size=10"
+ActiveButtonFontNameXft="droid sans:size=10"
+NormalTaskBarFontNameXft="droid sans:size=10"
+ActiveTaskBarFontNameXft="droid sans:size=10"
+ToolButtonFontNameXft="droid sans:size=10"
+NormalWorkspaceFontNameXft="droid sans:size=10"
+ActiveWorkspaceFontNameXft="droid sans:size=10"
+MinimizedWindowFontNameXft="droid sans:size=10"
+ListBoxFontNameXft="droid sans:size=10"
+ToolTipFontNameXft="droid sans:size=10"
+ClockFontNameXft="droid sans:size=10:bold"
+ApmFontNameXft="droid sans:size=10"
+InputFontNameXft="droid sans:size=10"
+LabelFontNameXft="droid sans:size=10"

@@ -1,0 +1,133 @@
+# Theme description
+ThemeDescription="Ambiance Crunchy for IceWM"
+# Theme author
+ThemeAuthor="Benoit THIBAUD, frombenny@gmail.com"
+
+# Look (warp3, warp4, win95; motif, nice, pixmap, metal, gtk)
+Look=pixmap
+
+# Task tray has a bevel around it (Like the Windows system tray)
+TrayDrawBevel	=	1 	# 0 / 1
+
+# List of gradient images in the current theme
+Gradients	=	"menubg.xpm menusel.xpm menusep.xpm taskbarbg.xpm workspacebuttonactive.xpm"
+
+# Change the titlebar buttons when mouse is over or not
+RolloverButtonsSupported	=	1
+
+# Titlebar buttons supported by theme (s=sysmenu, x=close, m=max, i=min, h=hide, r=rollup, d=depth)
+TitleButtonsSupported	=	"sxmihrd"
+TitleButtonsLeft		=	"xmi"
+TitleButtonsRight		=	"srd"
+
+# 'Start Menu' icon visible
+#ShowMenuButtonIcon	=	1
+
+# Horizontal:X and Vertical:Y window border
+BorderSizeX	=	0	# 0-128
+BorderSizeY	=	0	# 0-128
+
+# Resize bottom right corner width:X and height:Y
+
+# Horizontal:X and Vertical:Y dialog window border
+
+# Icon sizes
+MenuIconSize	=	16		# 0-128
+SmallIconSize	=	16		# 8-128
+LargeIconSize	=	32		# 8-128
+HugeIconSize	=	48		# 8-128
+
+TitleBarHeight			=	29
+TitleBarJustify			=	51
+TitleBarHorzOffset		=	5		# -128-128
+TitleBarVertOffset		=	1
+DesktopBackgroundColor	=	"#602f4c"
+
+# Minimized window font, color and text color (normal and active)
+#
+# the font carlito is downloadable here: http://packages.ubuntu.com/trusty/all/fonts-crosextra-carlito/download
+#
+MinimizedWindowFontNameXft		=	"carlito:size=11,		nimbus sans L:size=11,	sans-serif:size=11"
+ColorNormalMinimizedWindow		=	"#C0C0C0"
+ColorActiveMinimizedWindow		=	"#E0E0E0"
+ColorNormalMinimizedWindowText	=	"black"
+ColorActiveMinimizedWindowText	=	"black"
+
+TitleFontNameXft			=	"carlito:size=12:bold,	nimbus sans L:size=12:bold,	sans-serif:size=11:bold"
+MenuFontNameXft				=	"carlito:size=12,		nimbus sans L:size=12,		sans-serif:size=11"
+ActiveButtonFontNameXft		=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+NormalButtonFontNameXft		=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ToolButtonFontNameXft		=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+NormalWorkspaceFontNameXft	=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ActiveWorkspaceFontNameXft	=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+QuickSwitchFontNameXft		=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ListBoxFontNameXft			=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+StatusFontNameXft			=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ToolTipFontNameXft			=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ActiveTaskBarFontNameXft	=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+NormalTaskBarFontNameXft	=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ClockFontNameXft			=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+InputFontNameXft			=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+LabelFontNameXft			=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+ApmFontNameXft				=	"carlito:size=11,		nimbus sans L:size=11,		sans-serif:size=11"
+
+ColorClock		=	""
+ColorClockText	=	"#D9D6C7"
+
+ColorNormalTitleBar		=	"#3c3b37"
+ColorNormalTitleBarText	=	"#858178"
+ColorActiveTitleBar		=	"#3c3b37"
+ColorActiveTitleBarText	=	"#D9D6C7"
+
+ColorNormalMenu				=	"#3c3b37"
+#ColorActiveMenuItem		=	"#A0A0BA"	# inactivated because of the use of the menusel.xpm file
+ColorNormalMenuItemText		=	"#D9D6C7"
+ColorActiveMenuItemText		=	"white"
+ColorDisabledMenuItemText	=	"#7A7A7A"
+ColorDisabledMenuItemShadow	=	"#A7A7A7"
+
+ColorInput				=	"white"
+ColorInputText			=	"black"
+ColorInputSelection		=	"#A0A0BA"
+ColorInputSelectionText	=	"white"
+
+ColorNormalButton		=	"#3c3b37"
+ColorNormalButtonText	=	"#dfdbd2"
+
+ColorDefaultTaskBar				=	"#3c3b37"
+ColorNormalTaskBarApp			=	"#3c3b37"
+ColorNormalTaskBarAppText		=	"#dfdbd2"
+ColorActiveTaskBarApp			=	"#4A4A57"
+ColorActiveTaskBarAppText		=	"white"
+ColorMinimizedTaskBarApp		=	"#3c3b37"
+ColorMinimizedTaskBarAppText	=	"#7A7A7A"
+#ColorActiveWorkspaceButton		=	"#4A4A57"	# inactivated because of the use of the workspacebuttonactive.xpm file
+ColorActiveWorkspaceButtonText	=	"white"
+PagerShowBorders				=	0
+
+ColorClock		=	"#3c3b37"
+ColorClockText	=	"#dfdbd2"
+
+ColorToolTip		=	"black"
+ColorToolTipText	=	"white"
+
+ColorListBox				=	"#3d3d3d"
+ColorListBoxText			=	"white"
+ColorListBoxSelection		=	"#A0A0BA"
+ColorListBoxSelectionText	=	"white"
+
+ColorMoveSizeStatus		=	"black"
+ColorMoveSizeStatusText	=	"white"
+
+ColorQuickSwitch				=	"#3d3d3d"
+ColorQuickSwitchActive			=	"#A0A0BA"
+ColorQuickSwitchText			=	"#dfdbd2"
+ColorQuickSwitchSelectionText	=	"white"
+
+ColorDialog		=	"#3d3d3d"
+ColorLabel		=	"#3d3d3d"
+ColorLabelText	=	"#dfdbd2"
+
+#DesktopBackgroundCenter	=	1
+#DesktopBackgroundImage		=	'/usr/share/wallpaper/test.jpg'
+#DesktopBackgroundScaled	=	1

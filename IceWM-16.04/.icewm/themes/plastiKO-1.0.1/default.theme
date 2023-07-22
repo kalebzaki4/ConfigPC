@@ -1,0 +1,111 @@
+ThemeName='plastiKO-1.0'
+ThemeDescription="Theme inspired in KDE 3.5 style"
+ThemeAuthor="Ren Canteros Sousa <ren.kudun@gmail.com>"
+License="GPL"
+Look=flat
+
+RolloverButtonsSupported=1
+TitleBarHeight=18
+TitleBarJustify=50
+BorderSizeX=4
+BorderSizeY=2
+CornerSizeX=22
+CornerSizeY=22
+DlgBorderSizeX=4
+DlgBorderSizeY=2
+
+TitleButtonsSupported="xmis"
+
+ColorNormalBorder="rgb:c2/c2/c2"
+ColorActiveBorder="rgb:8f/bc/ea"
+ColorNormalButton="rgb:ee/ee/ee"
+
+ColorNormalTitleBarText="#454547"
+ColorActiveTitleBarText="rgb:ff/ff/ff"
+ColorActiveTitleBarShadow="rgb:29/5d/8b"
+
+ColorNormalMenu="rgb:fa/fa/fa"
+ColorActiveMenuItem="rgb:68/8e/b1"
+ColorNormalMenuItemText="rgb:00/00/00"
+ColorActiveMenuItemText="rgb:00/00/00"
+ColorDisabledMenuItemText="rgb:80/80/80"
+
+ColorMoveSizeStatus="rgb:4f/96/de"
+ColorMoveSizeStatusText="rgb:ff/ff/ff"
+
+ColorDefaultTaskBar="#d9d9e1"
+ColorNormalTaskBarApp="rgb:ff/ff/ff"
+ColorNormalTaskBarAppText="rgb:00/00/00"
+ColorActiveTaskBarApp="rgb:E0/E0/E0"
+ColorActiveTaskBarAppText="rgb:00/00/00"
+ColorMinimizedTaskBarApp="rgb:A0/A0/A0"
+ColorMinimizedTaskBarAppText="rgb:00/00/00"
+ColorInvisibleTaskBarApp="rgb:80/80/80"
+ColorInvisibleTaskBarAppText="rgb:00/00/00"
+
+ColorQuickSwitch="rgb:fa/fa/fa"
+ColorQuickSwitchActive="rgb:4f/96/de"
+
+ColorNormalButton="rgb:ee/ee/ee"
+ColorNormalButtonText="black"
+ColorActiveButton="rgb:dc/dc/dc"
+ColorActiveButtonText="white"
+
+ColorListBox="rgb:fa/fa/fa"
+ColorListBoxSelection="rgb:68/8e/b1"
+
+ColorScrollBar="rgb:dc/d9/d9"
+ColorScrollBarSlider="rgb:c1/b9/af"
+ColorScrollBarButton="rgb:c1/b9/af"
+
+DesktopBackgroundColor="#4fb4eb"
+#DesktopBackgroundCenter=1 # 0 / 1
+#DesktopBackgroundScaled=1 # 0 / 1
+#DesktopBackgroundImage="kde.jpg"
+
+ColorLabel="rgb:69/a5/e2"
+ColorDialog="rgb:69/a5/e2"
+ColorToolTip="rgb:69/a5/e2"
+
+ColorClock=""
+ColorClockText="black"
+TaskBarClockLeds=0
+
+ColorApm="rgb:18/18/38"
+ColorApmText="rgb:ef/d0/97"
+
+ColorCPUStatusIdle="rgb:44/44/44"
+ColorCPUStatusInterrupts="rgb:dc/dc/dc"
+ColorCPUStatusIoWait="rgb:68/68/68"
+ColorCPUStatusSoftIrq="rgb:ff/ff/ff"
+ColorCPUStatusUser="rgb:0e/95/cf"
+ColorCPUStatusSystem="rgb:00/cf/ff"
+ColorCPUStatusNice="rgb:9d/a1/bc"
+
+ColorNetIdle="rgb:44/44/44"
+ColorNetReceive="rgb:0e/95/cf"
+ColorNetSend="rgb:82/a6/cf"
+
+TaskBarClockLeds=0
+TrayDrawBevel=0
+
+ShowMenuButtonIcon=1
+
+TitleFontNameXft="droid sans:size=10:bold"
+MenuFontNameXft="droid sans:size=10"
+StatusFontNameXft="droid sans:size=10"
+QuickSwitchFontNameXft="droid sans:size=10"
+NormalButtonFontNameXft="droid sans:size=10"
+ActiveButtonFontNameXft="droid sans:size=10"
+NormalTaskBarFontNameXft="droid sans:size=10"
+ActiveTaskBarFontNameXft="droid sans:size=10:bold"
+ToolButtonFontNameXft="droid sans:size=10:bold"
+NormalWorkspaceFontNameXft="droid sans:size=10:bold"
+ActiveWorkspaceFontNameXft="droid sans:size=10:bold"
+MinimizedWindowFontNameXft="droid sans:size=10"
+ListBoxFontNameXft="droid sans:size=10"
+ToolTipFontNameXft="droid sans:size=10"
+ClockFontNameXft="droid sans:size=10:bold"
+ApmFontNameXft="droid sans:size=10"
+InputFontNameXft="droid sans:size=10"
+LabelFontNameXft="droid sans:size=10"

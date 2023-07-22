@@ -1,0 +1,153 @@
+ThemeAuthor=                     "BlueScorpio_7"
+ThemeDescription=                "GrayMatter"
+License=                         "GPL"
+Look=                            "pixmap"
+
+Gradients=                       "menubg.xpm"
+
+#Buttons
+TitleButtonsSupported=           "xmirs"
+TitleButtonsLeft=                "r"
+TitleButtonsRight=               "xmi"
+RolloverButtonsSupported=        1
+
+TaskBarClockLeds=                1
+TrayDrawBevel=                   1
+
+#Borders
+BorderSizeX=                     3
+BorderSizeY=                     3
+DlgBorderSizeX=                  3
+DlgBorderSizeY=                  3
+CornerSizeX=                     24
+CornerSizeY=                     24
+
+TitleBarHeight=                  23
+TitleBarJustify=                 50
+ScrollBarX=                      16
+ScrollBarY=                      16
+
+#Icons
+MenuIconSize=                    16
+SmallIconSize=                   16
+LargeIconSize=                   32
+HugeIconSize=                    48
+
+
+#DialogBox
+ColorDialog=                     "rgb:0B/0B/0B"
+ColorDialogSelectionText=        "rgb:0B/0B/0B"
+
+#Taskbar
+ColorDefaultTaskBar=             "rgb:0B/0B/0B"
+ColorToolButton=                 "rgb:0B/0B/0B"
+ColorActiveButton=               "rgb:0B/0B/0B"
+ColorNormalButton=               "rgb:0B/0B/0B"
+ColorToolButtonText=             "rgb:DB/DB/DB"
+ColorNormalWorkspaceButtonText=  "rgb:DB/DB/DB"
+ColorActiveWorkspaceButtonText=  "rgb:DB/DB/DB"
+ColorNormalButtonText=           "rgb:DB/DB/DB"
+ColorActiveButtonText=           "rgb:DB/DB/DB"
+ColorActiveTaskBarApp=           "rgb:0B/0B/0B"
+ColorActiveTaskBarAppText=       "rgb:DB/DB/DB"
+ColorMinimizedTaskBarApp=        "rgb:0B/0B/0B"
+ColorMinimizedTaskBarAppText=    "rgb:DB/DB/DB"
+ColorNormalTaskBarApp=           "rgb:0B/0B/0B"
+ColorNormalTaskBarAppText=       "rgb:DB/DB/DB"
+ColorInvisibleTaskBarAppText=    "rgb:DB/DB/DB"
+
+#Menu
+ColorActiveMenu=                 "rgb:DB/DB/DB"
+ColorNormalMenu=                 "rgb:0B/0B/0B"
+ColorNormalMenuItemText=         "rgb:DB/DB/DB"
+ColorActiveMenuItemText=         "rgb:00/00/00"
+ColorDisabledMenuItemText=       "rgb:DB/DB/DB"
+ColorDisabledMenuItemShadow=     "rgb:00/00/00"
+
+#TitleBox
+ColorNormalBorder=               "rgb:0B/0B/0B"
+ColorActiveBorder=               "rgb:0B/0B/0B"
+ColorNormalTitleBarText=         "rgb:DB/DB/DB"
+ColorActiveTitleBarText=         "rgb:DB/DB/DB"
+
+#Move
+ColorMoveSizeStatus=             "rgb:0B/0B/0B"
+ColorMoveSizeStatusText=         "rgb:DB/DB/DB"
+
+#Tooltip
+ColorToolTip=                    "rgb:0B/0B/0B"
+ColorToolTipText=                "rgb:DB/DB/DB"
+
+#QuickSwitch
+ColorQuickSwitch=                "rgb:0B/0B/0B"
+ColorQuickSwitchText=            "rgb:DB/DB/DB"
+
+#ListBox
+ColorListBox=                    "rgb:0B/0B/0B"
+ColorListBoxText=                "rgb:DB/DB/DB"
+ColorListBoxSelection=           "rgb:DB/DB/DB"
+ColorListBoxSelectionText=       "rgb:00/00/00"
+
+#Label
+ColorLabel=                      "rgb:0B/0B/0B"
+ColorLabelText=                  "rgb:DB/DB/DB"
+
+#Clock
+ColorClock=                      "rgb:0B/0B/0B"
+ColorClockText=                  "rgb:DB/DB/DB"
+
+#CPUMonitor
+ColorCPUStatusIdle=              "rgb:0B/0B/0B"
+ColorCPUStatusUser=              "rgb:DB/DB/DB"
+ColorCPUStatusSystem=            "rgb:5C/5C/5C"
+ColorCPUStatusInterrupts=        "rgb:FF/82/82"
+ColorCPUStatusIoWait=            "rgb:50/00/00"
+ColorCPUStatusSoftIrq=           "rgb:FF/AB/AB"
+ColorCPUStatusNice=              "rgb:FF/D3/00"
+
+#Net
+ColorNetIdle=                    "rgb:0B/0B/0B"
+ColorNetSend=                    "rgb:DB/DB/DB"
+ColorNetReceive=                 "rgb:5C/5C/5C"
+
+#APM
+ColorApm=                        "rgb:0B/0B/0B"
+ColorApmText=                    "rgb:DB/DB/DB"
+
+#Memory Manager
+ColorMEMStatusFree=              "rgb:0B/0B/0B"
+ColorMEMStatusCached=            "rgb:DB/DB/DB"
+ColorMEMStatusUser=              "rgb:5C/5C/5C"
+ColorMEMStatusBuffers=           "rgb:00/00/00"
+
+#Input
+ColorInput=                      "rgb:0B/0B/0B"
+ColorInputText=                  "rgb:DB/DB/DB"
+ColorInputSelection=             "rgb:20/20/20"
+ColorInputSelectionText=         "rgb:DB/DB/DB"
+
+#ScrollBar
+ColorScrollBar=                  "rgb:16/16/16"
+ColorScrollBarButton=            "rgb:0B/0B/0B"
+ColorScrollBarSlider=            "rgb:DB/DB/DB"
+ColorScrollBarArrow=             "rgb:25/25/25"
+ColorScrollBarButtonArrow=       "rgb:DB/DB/DB"
+ColorScrollBarInactiveArrow=     "rgb:DB/DB/DB"
+
+#Fonts
+TitleFontNameXft=                "luxi:size=8:bold"
+StatusFontNameXft=               "sans-serif:size=8:bold"
+MenuFontNameXft=                 "sans-serif:size=8:bold"
+NormalTaskBarFontNameXft=        "sans-serif:size=8:bold"
+ActiveTaskBarFontNameXft=        "sans-serif:size=8:bold"
+ListBoxFontNameXft=              "sans-serif:size=8:bold"
+ToolTipFontNameXft=              "sans-serif:size=9:bold"
+QuickSwitchFontNameXft=          "sans-serif:size=10:bold"
+ClockFontNameXft=                "sans-serif:size=8:bold"
+
+#Desktop
+#DesktopBackgroundImage=          "/usr/share/wallpapers/wallpaper-36.jpg"
+DesktopBackgroundScaled=         1
+DesktopBackgroundColor=          "rgb:16/16/16"
+DesktopTransparencyColor=        "rgb:16/16/16"
+DesktopTransparencyImage=        ""

@@ -1,0 +1,105 @@
+ThemeName="sumys"
+ThemeDescription="Un tema gris minimalista para iceWM"
+ThemeAuthor="Ren Canteros Sousa <ren.kudun@openmailbox.org>"
+License="GPL"
+Look=flat
+
+TitleBarHeight=18
+TitleButtonsSupported="xmis"
+TitleBarJustify=50
+RolloverButtonsSupported=1
+
+BorderSizeX=4
+BorderSizeY=2
+CornerSizeX=22
+CornerSizeY=22
+DlgBorderSizeX=4
+DlgBorderSizeY=2
+
+ColorNormalBorder="rgb:50/50/50"
+ColorActiveBorder="rgb:50/50/50"
+ColorActiveTitleBar="rgb:50/50/50"
+ColorNormalTitleBar="rgb:50/50/50"
+
+ColorNormalTitleBarText="#4e5045"
+ColorActiveTitleBarText="#141414"
+
+ColorNormalMenu="#efefef"
+ColorActiveMenuItem="#efefef"
+ColorNormalMenuItemText="#141414"
+ColorActiveMenuItemText="#f6f6f6"
+ColorDisabledMenuItemText="#505050"
+
+ColorMoveSizeStatus="#bfbfbe"
+ColorMoveSizeStatusText="#141414"
+
+ColorQuickSwitch="#bfbfbe"
+ColorQuickSwitchText="#141414"
+ColorQuickSwitchActive="#22a9e1"
+
+ColorDefaultTaskBar="#bfbfbe"
+ColorNormalTaskBarApp="#bfbfbe"
+ColorNormalTaskBarAppText="#141414"
+ColorActiveTaskBarApp="#22a9e1"
+ColorActiveTaskBarAppText="white"
+ColorMinimizedTaskBarApp="#bfbfbe"
+ColorMinimizedTaskBarAppText="black"
+
+DesktopBackgroundColor="#5cabd0"
+DesktopBackgroundCenter=1 # 0 / 1
+DesktopBackgroundScaled=1 # 0 / 1
+DesktopBackgroundImage="1280x1024.jpg"
+
+ColorNormalButton="#bfbfbe"
+ColorNormalButtonText="black"
+ColorActiveButton="#bfbfbe"
+ColorActiveButtonText="white"
+
+ColorClock=""
+ColorClockText="#141414"
+
+ColorCPUStatusUser="#22a9e1"
+ColorCPUStatusSystem="#3a7d48"
+ColorCPUStatusNice="#bfbfbe"
+ColorCPUStatusIdle="#141414"
+ColorNetSend="#3a7d48"
+ColorNetReceive="#bfbfbe"
+ColorNetIdle="#141414"
+
+ColorListBox="#bfbfbe"
+ColorListBoxText="#141414"
+ColorListBoxSelection="#22a9e1"
+ColorListBoxSelectionText="white"
+
+ColorScrollBar="#bfbfbe"
+ColorScrollBarSlider="#bfbfbe"
+ColorScrollBarButton="#bfbfbe"
+ColorScrollBarButtonArrow="#22a9e1"
+
+ColorToolTip="#bfbfbe"
+ColorToolTipText="#141414"
+ColorLabel="#bfbfbe"
+ColorLabelText="#141414"
+
+ShowMenuButtonIcon=1
+
+TitleFontNameXft="droid sans:size=10"
+MenuFontNameXft="droid sans:size=10"
+StatusFontNameXft="droid sans:size=10"
+QuickSwitchFontNameXft="droid sans:size=10"
+NormalButtonFontNameXft="droid sans:size=10"
+ActiveButtonFontNameXft="droid sans:size=10"
+NormalTaskBarFontNameXft="droid sans:size=10"
+ActiveTaskBarFontNameXft="droid sans:size=10"
+ToolButtonFontNameXft="droid sans:size=10"
+NormalWorkspaceFontNameXft="droid sans:size=10"
+ActiveWorkspaceFontNameXft="droid sans:size=10"
+MinimizedWindowFontNameXft="droid sans:size=10"
+ListBoxFontNameXft="droid sans:size=10"
+ToolTipFontNameXft="droid sans:size=10"
+ClockFontNameXft="droid sans:size=10"
+ApmFontNameXft="droid sans:size=10"
+InputFontNameXft="droid sans:size=10"
+LabelFontNameXft="droid sans:size=10"
+
+TaskBarClockLeds=0
