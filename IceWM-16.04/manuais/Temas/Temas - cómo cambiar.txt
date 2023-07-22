@@ -1,0 +1,4 @@
+
+Cuando cambies de un tema a otro, en la sección de los iconos de la barra de tareas no se cambia el color alrededor de ellos, eso sucederá cuando usted salga de la sesión y vuelva a entrar
+
+También se pierde el foco de las ventanas pequeñas donde uno tiene que escribir texto, ejemplo cuando uno va a cambiar de nombre a algún archivo ya no se aparece automáticamente el foco en esas ventanas, esto se soluciona al salir de la sesión y volver a entrar
