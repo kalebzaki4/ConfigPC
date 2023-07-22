@@ -1,0 +1,16 @@
+Nos seguintes gerenciadores de arquivos:
+
+nautilus
+tunar
+caixa
+nemo
+pcman-fm
+
+você pode ver os arquivos ocultos pressionando a combinação de teclas "Ctrl + H"
+
+mas se você usar dolphin4, deverá esmagar o "Alt + ."
+
+
+Projeto iceWM ressuscitado
+Attn: Washington Indacochea Delgado (Wachín)
+2023
