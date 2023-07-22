@@ -1,0 +1,136 @@
+
+
+#	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+#	│ Proyecto Resucitar PC de bajos recursos con iceWM  │
+#	│                          RisenPC                   │
+#	│ script por Washington Indacochea Delgado (Wachín)  │
+#	│      E-Mail: wachin.id@gmail.com en Ecuador        │
+#	│   http://facilitarelsoftwarelibre.blogspot.com/    │
+#	│    Licencia Pública General de GNU version 2       │    
+#	│ En español: http://es.tldp.org/Otros/gples/gples.html
+#	│  en inglés: https://www.gnu.org/licenses/gpl-2.0.html
+#	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+#
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 
+# MENU DE LAS APLICACIONES EN ICEWM
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+# Este es el archivo de configuración del menu que he modificado, para mi
+# está super bien así lo cree copiando y pegando las lineas de menu que
+# me creó el programa xdgmenumaker en el archivo "appmenu" y modificando 
+# el archivo de ejemplo istalado por icewm en /usr/share/icewm/menu
+# también borré algunas entradas y añadí otras
+# 2016-07-18 Adaptado por Wachín para el Proyecto Facilitar el Software
+# Libre en el Ecuador
+
+prog "Terminal de Xfce" /usr/share/icons/gnome/16x16/apps/utilities-terminal.png xfce4-terminal
+
+separator
+
+include appmenu
+
+separator
+
+menu "Administradores de Archivos" /usr/share/icewm/icons/folder_16x16.xpm {
+    prog "Dolphin4" /usr/share/icons/gnome/32x32/places/folder.png dolphin4
+    prog "Caja" /usr/share/icons/gnome/32x32/places/folder.png caja
+    prog "PCmanFM" /usr/share/icons/gnome/32x32/places/folder.png pcmanfm 
+    prog "Nemo" /usr/share/icons/gnome/32x32/places/folder.png nemo 
+    prog "Nautilus" /usr/share/icons/hicolor/48x48/apps/org.gnome.Nautilus.png nautilus --no-desktop
+    prog "Thunar" /usr/share/icons/hicolor/48x48/apps/Thunar.png thunar
+    prog "Double Commander" /usr/share/pixmaps/doublecmd.png doublecmd
+}
+
+menu "JACK Apps" /usr/share/icewm/icons/app_32x32.xpm {
+prog "QjackCtl" /usr/share/pixmaps/qjackctl.xpm /usr/bin/qjackctl
+prog "Qsynth" noicon.png qsynth
+prog "Ardour5" noicon.png /usr/bin/ardour5
+prog "Rosegarden" noicon.png rosegarden
+prog "Patchage" /usr/share/icons/hicolor/48x48/apps/patchage.png /usr/bin/patchage
+prog "MusE" noicon.png muse
+prog "MuseScore 2" /usr/share/icons/hicolor/48x48/apps/mscore.png mscore
+prog "Hydrogen" noicon.png hydrogen
+prog "JackEQ" /usr/share/jackeq/thai-gold.png jackeq
+prog "JACK Keyboard" /usr/share/pixmaps/jack-keyboard.png jack-keyboard
+prog "Jack Mixer" /usr/share/icons/hicolor/48x48/apps/jack_mixer.png jack_mixer
+prog "Calf Plugin Pack for JACK" /usr/share/icons/hicolor/48x48/apps/calf.png calfjackhost
+prog "GTick" /usr/share/icons/hicolor/64x64/apps/gtick.xpm /usr/bin/gtick
+prog "Virtual MIDI Keyboard" /usr/share/pixmaps/vkeybd.xpm vkeybd
+}
+
+separator
+
+menu "Mis Aplicaciones" /usr/share/icewm/icons/app_16x16.xpm {
+
+prog "Reproductor multimedia VLC" /usr/share/icons/hicolor/16x16/apps/vlc.png /usr/bin/vlc --started-from-file 
+prog "Audacious" /usr/share/icons/hicolor/48x48/apps/audacious.png audacious
+prog "GoldenDict" /usr/share/pixmaps/goldendict.png goldendict
+
+separator
+
+
+prog "puddletag" /usr/share/pixmaps/puddletag.png puddletag
+prog "OpenLP" /usr/share/icons/hicolor/48x48/apps/openlp.png openlp
+prog "MKVToolNix GUI" /usr/share/icons/hicolor/48x48/apps/mkvtoolnix-gui.png mkvtoolnix-gui
+prog "K3b" /usr/share/icons/hicolor/48x48/apps/k3b.png k3b
+prog "Brasero" /usr/share/icons/hicolor/48x48/apps/brasero.png brasero
+prog "Conversor de audio" /usr/share/icons/hicolor/48x48/apps/soundconverter.png soundconverter 
+prog "FF Multi Converter" /usr/share/pixmaps/ffmulticonverter.png ffmulticonverter
+prog "Kdenlive" /usr/share/icons/hicolor/64x64/apps/kdenlive.png kdenlive
+prog "SimpleScreenRecorder" /usr/share/icons/hicolor/48x48/apps/simplescreenrecorder.png simplescreenrecorder --logfile
+prog "Geeqie" /usr/share/pixmaps/geeqie.png icewm-menu-fdo "/usr/share/applications/geeqie.desktop"
+#este icono estaba dificil de saber cual era, lo busqué con synaptic
+
+separator
+
+prog "PlayOnLinux" /usr/share/pixmaps/playonlinux16.png playonlinux
+
+separator
+
+prog "Calculadora" /usr/share/pixmaps/speedcrunch.xpm speedcrunch
+prog "ConvertAll" /usr/share/pixmaps/convertall/convertall_lg.png convertall
+#este icono estaba dificil de saber cual era, lo busqué con synaptic
+
+separator
+
+prog "Krita" /usr/share/icons/hicolor/48x48/apps/calligrakrita.png krita
+prog Inkscape inkscape inkscape
+prog Gimp gimp gimp
+prog "Gromit-MPX" /usr/share/pixmaps/gromit-mpx.png gromit-mpx
+prog "KeyMon" /usr/share/pixmaps/key-mon.xpm key-mon
+prog "KRuler" /usr/share/icons/hicolor/48x48/apps/kruler.png kruler
+
+}
+
+separator
+
+menu "OPCIONES iceWM" /usr/share/icons/hicolor/32x32/apps/icewm.xpm {
+    prog "Cambiar Fondo de pantalla" /usr/share/xscreensaver/glade/screensaver-cmndln.png pcmanfm --desktop-pref
+    prog "Opciones del Monitor" /usr/share/icewm/icons/xterm_32x32.xpm lxrandr
+    prog "Impresoras" /usr/share/icewm/icons/file_16x16.xpm system-config-printer
+    prog "Bloquear Pantalla" /usr/share/xscreensaver/glade/screensaver-locking.png xscreensaver-command -lock
+    prog "Configurar Salvapantallas" /usr/share/xscreensaver/glade/screensaver-cmndln.png  /usr/bin/xscreensaver-demo
+    prog "Temas de Aplicaciones GTK" /usr/share/icewm/icons/run_16x16.xpm lxappearance
+    prog "Temas de Aplicaciones Qt 4" /usr/share/pixmaps/qtconfig-qt4.png /usr/bin/qtconfig-qt4
+    prog "Temas de Aplicaciones Qt 5" /usr/share/pixmaps/qtconfig-qt4.png qt5ct
+    prog "Solaar (configurar Logitech Unifying Receiver)" /usr/share/icewm/icons/settings_32x32.xpm solaar 
+    prog "KDE Connect Indicator" /usr/share/icons/hicolor/48x48/apps/kdeconnect.png indicator-kdeconnect
+    prog "Soporte de idiomas" /usr/share/icewm/icons/communicator-discussion_32x32.xpm /usr/bin/gnome-language-selector
+    prog "Proyecto Facilitar el Software Libre en el Ecuador" /usr/share/icewm/icons/about_16x16.xpm xdg-open http://facilitarelsoftwarelibre.blogspot.com/
+}
+
+separator
+
+#prog "Actualizar menu iceWM" /usr/share/icons/hicolor/32x32/apps/icewm.xpm /home/wachin/script-actualizar-menu-icewm.sh
+
+prog "Actualizar menu iceWM" /usr/share/icons/hicolor/32x32/apps/icewm.xpm ~/script-actualizar-menu-icewm.sh
+
+# prog "Actualizar menu iceWM" /usr/share/icons/hicolor/32x32/apps/icewm.xpm /home/wachin/script-actualizar-menu-icewm.sh
+# ejemplo de lanzadores encerrados en comilla:
+#     prog "Simplenote" /usr/share/icons/hicolor/16x16/apps/simplenote.png "/opt/Simplenote/simplenote" 
+#     prog "FontBase" _none_ "/home/wachin/Aplicaciones-Linux/AppImage/FontBase-2.4.1-x86_64.AppImage"
+# por esto también debo probar:
+# prog "Actualizar menu iceWM" /usr/share/icons/hicolor/32x32/apps/icewm.xpm "xdgmenumaker -i -s16 -f icewm > ~/.icewm/appmenu"
+
+
+
