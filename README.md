@@ -1,10 +1,6 @@
 <h1 align="center">ConfigPC 🖥️⚙️</h1>
 
 <p align="center">
-  <img src="/mnt/data/image.png" alt="Logo do ConfigPC" width="200">
-</p>
-
-<p align="center">
   👋 Bem-vindo ao ConfigPC! Este repositório é dedicado a compartilhar personalizações e recursos para tornar seu PC bonito e rápido. Se você é um entusiasta de customização ou simplesmente quer dar um toque especial ao seu computador, você está no lugar certo!
 </p>
 
