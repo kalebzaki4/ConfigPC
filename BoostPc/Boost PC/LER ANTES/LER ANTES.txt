@@ -1,0 +1,29 @@
+**ESTE FPS BOOST É FOCADO PRINCIPALMENTE NO FORTNITE!**
+
+Vou explicar o que cada pasta e cada arquivo faz em seu PC e o nível de otimização. Lembre-se, a otimização é algo de sua responsabilidade. No máximo, você pode perder seus arquivos. Tome cuidado e siga os procedimentos exatamente como os programas pedem:
+
+1. **ReviOS-10-22.09**: Ele apenas é aplicado com o Rufus, desde que você faça corretamente, não exclui seus arquivos. Cria um pen drive virtual com o Windows otimizado para você! Nível de otimização e perigo: [▬▬▬▬▬▬▬▬] 80%.
+
+2. **NVCleanstall_1.10.0**: Ele otimiza sua placa de vídeo da NVIDIA! Nível de otimização e perigo: [▬▬] 20%.
+
+3. **1. Otimização CMD**: Ele limpa as células do seu SSD e HD, liberando mais espaço sem excluir seus arquivos! Nível de otimização e perigo: [] 0%.
+
+4. **2. Otimização Regedit**: Ele desativa o seu limite de banda, reduzindo o lag nas partidas. Otimiza a placa de vídeo, tira a latência do seu monitor e reduz o delay! Nível de otimização e perigo: [▬] 10%.
+
+5. **CONFIG PC PODRE**: Ela tem as configurações adequadas dependendo do seu PC. Veja o nível do seu PC e escolha uma das pastas. Depois, procure como alterar os GameUserSettings do seu Fortnite e cole o conteúdo da pasta. Isso mudará apenas a configuração gráfica do jogo! Nível de otimização e perigo: [] 0%.
+
+6. **fortnite txt**: Procure no YouTube como mexer neste arquivo, pois você terá que entrar no launcher da Epic Games para utilizá-lo! Nível de otimização e perigo: [] 0%.
+
+7. **OTIMIZAR PC**: Aqui vão algumas regedits para melhorar seu PC. Caso aconteça algo, existe um backup! Nível de otimização e perigo: [▬▬▬] 30%.
+
+8. **PROGRAMAS**: Programas para otimizar o PC. Nível de otimização e perigo: [▬▬▬] 30%.
+
+9. **AUMENTA SEU FPS E SUA QUALIDADE NO GAME!**: Nível de otimização e perigo: [▬] 10%.
+
+10. **Optimizacao_da_NVIDIA**: Melhora sua placa de vídeo, alterando os gráficos dela! Nível de otimização e perigo: [▬▬▬▬] 40%.
+
+11. **DataSizeQueues**: Tira o input-lag do mouse e teclado! Nível de otimização e perigo: [] 0%.
+
+12. **FilterKeysSetter**: Tira o delay do mouse e teclado! Nível de otimização e perigo: [] 0%.
+
+Espero ter ajudado!

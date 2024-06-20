@@ -1,0 +1,12 @@
+
+1. O registro do teclado: os códigos fornecidos alteram o tamanho da fila de dados do teclado. Isso pode ser útil para aumentar a capacidade de armazenamento de dados de entrada do teclado, o que pode melhorar o desempenho em cenários de digitação intensiva ou com teclados de alta velocidade.
+
+2. O registro do mouse: os códigos fornecidos alteram o tamanho da fila de dados do mouse. Isso pode ser benéfico para aumentar a capacidade de armazenamento de dados de entrada do mouse, o que pode melhorar a responsividade e a precisão do mouse durante o uso.
+
+3. -LANPLAY: essa opção permite jogos em rede local (LAN), permitindo que jogadores conectados à mesma rede joguem entre si sem a necessidade de uma conexão com a internet. Isso é útil em ambientes onde a conexão com a internet pode ser limitada ou indisponível.
+
+4. -NOSPLASH: essa opção faz com que o aplicativo ou jogo seja executado sem exibir a tela de apresentação (splash screen). Isso pode reduzir o tempo de inicialização do jogo, pois ele pula a exibição de elementos visuais introdutórios, diretamente iniciando a jogabilidade.
+
+5. -USEALLAVAILABLECORES: essa opção permite que o aplicativo ou jogo utilize todos os núcleos de processamento disponíveis no computador. Isso pode resultar em um aproveitamento melhorado da capacidade de processamento da CPU, distribuindo as tarefas de processamento entre os núcleos e aumentando o desempenho geral.
+
+6. Configurações HTTP: essas configurações controlam o tempo de espera durante as operações de comunicação HTTP. Ao definir tempos limite curtos, como HttpTimeout=10, HttpConnectionTimeout=10, isso garante que as operações de comunicação sejam concluídas rapidamente, evitando atrasos excessivos.

@@ -1,0 +1,17 @@
+Bem-vindo ao AutoFarmBot! Este programa, originalmente criado em Python por um usuário no GitHub, foi modificado para facilitar seu uso. As modificações são simples de realizar, mesmo para quem não tem experiência em programação. Você pode usá-lo para farmar em vários canais e contas, com um número ilimitado, até onde sabemos.
+
+Como Usar:
+Configuração dos Canais:
+
+Abra o arquivo "channels.json" com um editor de texto, como Bloco de Notas ou VS Code.
+Na linha "Apague este texto e coloque o canal da Twitch que deseja farmar aqui!", substitua por seu canal desejado.
+Para farmar em mais de um canal, copie esta linha abaixo e insira o nome de outro canal, separando-os por vírgula.
+Logando na Conta:
+
+No arquivo "Users.json", preencha "username" com seu nome de usuário Twitch exatamente como é na sua conta.
+Em "token", acesse este link para obter seu token da API Twitch. Copie e cole na área "token": "aqui".
+Executando o Bot:
+
+Execute o arquivo "twitchRerunKiller.exe" para conectar sua conta aos chats dos streamers escolhidos. Isso permite que você acumule pontos nas lojinhas deles.
+Lembre-se: O bot não funciona para acumular pontos da live em si, apenas na lojinha da Streamelements do streamer.
+Se precisar de suporte ou tiver alguma dúvida, acesse este link. Agradecemos por utilizar o AutoFarmBot!
