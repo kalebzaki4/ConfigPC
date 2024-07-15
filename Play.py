@@ -34,16 +34,69 @@ def opcao_invalida():
     voltar_ao_menu_principal()
 
 def exibir_subtitulo(texto):
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(texto)
     print()
 
 def BeautyPC():
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     exibir_subtitulo('Repositório dedicado a deixar seu pc mais bonito!') 
-    print('Tamanho do repositorio: 27.181kb ') 
-    input('Quer baixar ele em sua maquina? s/n: ')
-    voltar_ao_menu_principal()
+    print('Tamanho do repositório: 27.181kb ') 
+    resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
+    if resposta == 's':
+        print('Iniciando download...')
+        # Código de download aqui
+        voltar_ao_menu_principal()
+    elif resposta == 'n':
+        voltar_ao_menu_principal()
+    else:
+        print('Opção inválida!\n')
+        BeautyPC()
+
+def BoostPC():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    exibir_subtitulo('Repositório dedicado a melhorar o desempenho do seu PC!') 
+    print('Tamanho do repositório: 35.412kb ') 
+    resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
+    if resposta == 's':
+        print('Iniciando download...')
+        # Código de download aqui
+        voltar_ao_menu_principal()
+    elif resposta == 'n':
+        voltar_ao_menu_principal()
+    else:
+        print('Opção inválida!\n')
+        BoostPC()
+
+def Extra_AutoFarmPro():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    exibir_subtitulo('Repositório dedicado a automações extras e AutoFarmPro!') 
+    print('Tamanho do repositório: 45.327kb ') 
+    resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
+    if resposta == 's':
+        print('Iniciando download...')
+        # Código de download aqui
+        voltar_ao_menu_principal()
+    elif resposta == 'n':
+        voltar_ao_menu_principal()
+    else:
+        print('Opção inválida!\n')
+        Extra_AutoFarmPro()
+
+def FanControl():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    exibir_subtitulo('Repositório dedicado ao controle de ventiladores do seu PC!') 
+    print('Tamanho do repositório: 22.159kb ') 
+    resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
+    if resposta == 's':
+        print('Iniciando download...')
+        # Código de download aqui
+        voltar_ao_menu_principal()
+    elif resposta == 'n':
+        voltar_ao_menu_principal()
+    else:
+        print('Opção inválida!\n')
+        FanControl()
 
 def listar_restaurantes():
     exibir_subtitulo('Listando restaurantes')
@@ -56,15 +109,16 @@ def listar_restaurantes():
 def escolher_opcao():
     try:
         opcao_escolhida = int(input('Escolha uma opção: '))
-        # opcao_escolhida = int(opcao_escolhida)
 
         if opcao_escolhida == 1: 
             BeautyPC()
         elif opcao_escolhida == 2: 
-            listar_restaurantes()
+            BoostPC()
         elif opcao_escolhida == 3: 
-            print('Ativar restaurante')
+            Extra_AutoFarmPro()
         elif opcao_escolhida == 4: 
+            FanControl()
+        elif opcao_escolhida == 6: 
             finalizar_app()
         else: 
             opcao_invalida()
@@ -72,7 +126,7 @@ def escolher_opcao():
         opcao_invalida()
 
 def main():
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     exibir_nome_do_programa()
     mostrar_pra_que_serve()
     exibir_opcoes()
