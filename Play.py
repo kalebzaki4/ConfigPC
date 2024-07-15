@@ -108,7 +108,7 @@ def listar_restaurantes():
 
 def escolher_opcao():
     try:
-        opcao_escolhida = int(input('Escolha uma opção: '))
+        opcao_escolhida = int(input('Escolha um número: '))
 
         if opcao_escolhida == 1: 
             BeautyPC()
