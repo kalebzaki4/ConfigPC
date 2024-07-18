@@ -1,6 +1,7 @@
 import os
-
-restaurantes = ['Pizza', 'Sushi']
+import sys
+import requests
+import shutil
 
 def exibir_nome_do_programa():
     print("""
@@ -24,6 +25,8 @@ def exibir_opcoes():
 
 def finalizar_app():
     exibir_subtitulo('Finalizar app')
+    print('Obrigado por usar o ConfigPC. Até logo!')
+    os._exit(0)  # Fecha o terminal forçadamente
 
 def voltar_ao_menu_principal():
     input('\nDigite uma tecla para voltar ao menu ')
@@ -38,14 +41,31 @@ def exibir_subtitulo(texto):
     print(texto)
     print()
 
+def download_arquivo(url, nome_arquivo):
+    try:
+        # Fazendo a requisição GET para baixar o arquivo
+        response = requests.get(url, stream=True)
+        response.raise_for_status()  # Verifica se houve erro na requisição
+        
+        # Caminho onde o arquivo será salvo (pode ser ajustado conforme sua necessidade)
+        caminho_arquivo = os.path.join(os.getcwd(), nome_arquivo)
+        
+        # Escrevendo o conteúdo do arquivo
+        with open(caminho_arquivo, 'wb') as f:
+            response.raw.decode_content = True
+            shutil.copyfileobj(response.raw, f)
+        
+        print(f'Download de {nome_arquivo} concluído!')
+    except requests.exceptions.RequestException as e:
+        print(f'Erro durante o download: {e}')
+
 def BeautyPC():
-    os.system('cls' if os.name == 'nt' else 'clear')
     exibir_subtitulo('Repositório dedicado a deixar seu pc mais bonito!') 
     print('Tamanho do repositório: 27.181kb ') 
     resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
     if resposta == 's':
-        print('Iniciando download...')
-        # Código de download aqui
+        url_beautypc = 'https://github.com/kalebzaki4/ConfigPC/raw/main/BeautyPC.rar'
+        download_arquivo(url_beautypc, 'BeautyPC.zip')  # Nome do arquivo e URL real devem ser ajustados
         voltar_ao_menu_principal()
     elif resposta == 'n':
         voltar_ao_menu_principal()
@@ -54,13 +74,12 @@ def BeautyPC():
         BeautyPC()
 
 def BoostPC():
-    os.system('cls' if os.name == 'nt' else 'clear')
     exibir_subtitulo('Repositório dedicado a melhorar o desempenho do seu PC!') 
     print('Tamanho do repositório: 35.412kb ') 
     resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
     if resposta == 's':
-        print('Iniciando download...')
-        # Código de download aqui
+        url_boostpc = 'URL_DO_SEU_ARQUIVO_BOOSTPC'
+        download_arquivo(url_boostpc, 'BoostPC.zip')  # Nome do arquivo e URL real devem ser ajustados
         voltar_ao_menu_principal()
     elif resposta == 'n':
         voltar_ao_menu_principal()
@@ -69,13 +88,12 @@ def BoostPC():
         BoostPC()
 
 def Extra_AutoFarmPro():
-    os.system('cls' if os.name == 'nt' else 'clear')
     exibir_subtitulo('Repositório dedicado a automações extras e AutoFarmPro!') 
     print('Tamanho do repositório: 45.327kb ') 
     resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
     if resposta == 's':
-        print('Iniciando download...')
-        # Código de download aqui
+        url_extra = 'URL_DO_SEU_ARQUIVO_EXTRA'
+        download_arquivo(url_extra, 'Extra_AutoFarmPro.zip')  # Nome do arquivo e URL real devem ser ajustados
         voltar_ao_menu_principal()
     elif resposta == 'n':
         voltar_ao_menu_principal()
@@ -84,13 +102,12 @@ def Extra_AutoFarmPro():
         Extra_AutoFarmPro()
 
 def FanControl():
-    os.system('cls' if os.name == 'nt' else 'clear')
     exibir_subtitulo('Repositório dedicado ao controle de ventiladores do seu PC!') 
     print('Tamanho do repositório: 22.159kb ') 
     resposta = input('Quer baixar ele em sua máquina? s/n: ').strip().lower()
     if resposta == 's':
-        print('Iniciando download...')
-        # Código de download aqui
+        url_fancontrol = 'https://github.com/kalebzaki4/ConfigPC/raw/main/FanControl.rar'
+        download_arquivo(url_fancontrol, 'FanControl.rar')  # Nome do arquivo e URL real devem ser ajustados
         voltar_ao_menu_principal()
     elif resposta == 'n':
         voltar_ao_menu_principal()
@@ -98,12 +115,31 @@ def FanControl():
         print('Opção inválida!\n')
         FanControl()
 
-def listar_restaurantes():
-    exibir_subtitulo('Listando restaurantes')
+def descricao_repositorios():
+    exibir_subtitulo('Descrição dos repositórios')
 
-    for restaurante in restaurantes:
-        print(f'.{restaurante}')
+    print('1. BeautyPC')
+    print('2. BoostPC')
+    print('3. Extra/AutoFarmPro')
+    print('4. FanControl')
+    print('5. Voltar ao menu principal\n')
 
+    opcao_descricao = input('Escolha um número para ver a descrição detalhada: ').strip()
+
+    if opcao_descricao == '1':
+        print("\nBeautyPC: Este repositório é focado em melhorar a aparência visual do seu PC. Ele inclui temas, ícones e outras personalizações visuais.\n")
+    elif opcao_descricao == '2':
+        print("\nBoostPC: Este repositório é focado em melhorar o desempenho do seu PC. Ele inclui scripts e ferramentas para otimizar a velocidade e a eficiência.\n")
+    elif opcao_descricao == '3':
+        print("\nExtra/AutoFarmPro: Este repositório inclui automações extras e o AutoFarmPro, uma ferramenta para automação de tarefas específicas.\n")
+    elif opcao_descricao == '4':
+        print("\nFanControl: Este repositório fornece ferramentas para controlar e otimizar a velocidade dos ventiladores do seu PC para melhor resfriamento e desempenho.\n")
+    elif opcao_descricao == '5':
+        voltar_ao_menu_principal()
+        return
+    else:
+        print('Opção inválida!\n')
+    
     voltar_ao_menu_principal()
 
 def escolher_opcao():
@@ -118,11 +154,13 @@ def escolher_opcao():
             Extra_AutoFarmPro()
         elif opcao_escolhida == 4: 
             FanControl()
+        elif opcao_escolhida == 5: 
+            descricao_repositorios()
         elif opcao_escolhida == 6: 
             finalizar_app()
         else: 
             opcao_invalida()
-    except:
+    except ValueError:
         opcao_invalida()
 
 def main():
