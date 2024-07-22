@@ -1,0 +1,155 @@
+ThemeAuthor=                           "BlueScorpio_7"
+ThemeDescription=                      "Saphire-G"
+
+Look=                                  "flat"
+Gradients=                             "menubg.xpm dialogbg.xpm taskbuttonactive.xpm taskbuttonbg.xpm taskbuttonminimized.xpm"
+License=                               "GPL"
+
+#Buttons
+RolloverButtonsSupported=               1
+TaskBarClockLeds=                       1
+TitleButtonsSupported=                  "xmir"
+TitleButtonsRight=                      "xmi"
+TitleButtonsLeft=                       "r"
+TrayDrawBevel=0
+
+#Borders
+BorderSizeX=                            5
+BorderSizeY=                            5
+DlgBorderSizeX=                         5
+DlgBorderSizeY=                         5
+CornerSizeX=                            24
+CornerSizeY=                            24
+TitleBarHeight=                         16
+TitleBarJustify=                        50
+ScrollBarX=                             16
+ScrollBarY=                             16
+
+#Icons
+MenuIconSize=                           16
+SmallIconSize=                          16
+LargeIconSize=                          32
+HugeIconSize=                           48
+
+#DialogBox
+ColorLabelText=                         "rgb:FF/FF/FF"
+ColorDialog=                            "rgb:53/7C/A2"
+ColorDialogSelectionText=               "rgb:FF/FF/FF"
+
+#Taskbar
+ColorDefaultTaskBar=                    "rgb:53/7C/A2"
+ColorToolButton=                        "rgb:3A/57/72"
+ColorToolButtonText=                    "rgb:FF/FF/FF"
+ColorActiveButton=                      "rgb:53/7C/A2"
+ColorNormalButton=                      "rgb:53/7C/A2"
+ColorNormalWorkspaceButtonText=         "rgb:FF/FF/FF"
+ColorActiveWorkspaceButtonText=         "rgb:FF/FF/FF"
+ColorNormalButtonText=                  "rgb:FF/FF/FF"
+ColorActiveButtonText=                  "rgb:FF/FF/FF"
+ColorActiveTaskBarApp=                  "rgb:53/7C/A2"
+ColorActiveTaskBarAppText=              "rgb:FF/FF/FF"
+ColorMinimizedTaskBarApp=               "rgb:53/7C/A2"
+ColorMinimizedTaskBarAppText=           "rgb:FF/FF/FF"
+ColorNormalTaskBarApp=                  "rgb:53/7C/A2"
+ColorNormalTaskBarAppText=              "rgb:FF/FF/FF"
+ColorInvisibleTaskBarAppText=           "rgb:FF/FF/FF"
+ColorNormalTitleBarShadow=              "rgb:17/17/17"
+ColorActiveTitleBarShadow=              "rgb:0D/24/43"
+
+#Menu
+ColorActiveMenu=                        "rgb:53/7C/A2"
+ColorActiveMenuItem=                    "rgb:00/00/00"
+ColorNormalMenu=                        "rgb:53/7C/A2"
+ColorNormalMenuItem=                    "rgb:00/00/00"
+ColorNormalMenuItemText=                "rgb:FF/FF/FF"
+ColorActiveMenuItemText=                "rgb:FF/FF/FF"
+ColorDisabledMenuItemText=              "rgb:80/80/80"
+ColorDisabledMenuItemShadow=            "rgb:00/00/00"
+
+#TitleBox
+ColorNormalBorder=                      "rgb:AB/B7/C4"
+ColorActiveBorder=                      "rgb:A2/C1/DE"
+ColorNormalTitleBarText=                "rgb:D9/D9/D9"
+ColorActiveTitleBarText=                "rgb:FF/FF/FF"
+
+#Move
+ColorMoveSizeStatus=                    "rgb:53/7C/A2"
+ColorMoveSizeStatusText=                "rgb:FF/FF/FF"
+
+#Tooltip
+ColorToolTip=                           "rgb:53/7C/A2"
+ColorToolTipText=                       "rgb:FF/FF/FF"
+
+#QuickSwitch
+ColorQuickSwitch=                       "rgb:53/7C/A2"
+ColorQuickSwitchText=                   "rgb:FF/FF/FF"
+
+#ListBox
+ColorListBox=                           "rgb:53/7C/A2"
+ColorListBoxText=                       "rgb:FF/FF/FF"
+ColorListBoxSelection=                  "rgb:2B/59/85"
+ColorListBoxSelectionText=              "rgb:FF/FF/FF"
+
+#Label
+ColorLabel=                             "rgb:53/7C/A2"
+ColorLabelText=                         "rgb:FF/FF/FF"
+
+#Clock
+ColorClock=                             "rgb:53/7C/A2"
+ColorClockText=                         "rgb:FF/FF/FF"
+
+#CPUMonitor
+ColorCPUStatusIdle=                     "rgb:15/33/4E"
+ColorCPUStatusUser=                     "rgb:BC/DF/FF"
+ColorCPUStatusSystem=                   "rgb:49/6E/94"
+ColorCPUStatusInterrupts=               "rgb:DE/FF/FF"
+ColorCPUStatusIoWait=                   "rgb:58/A6/EF"
+ColorCPUStatusSoftIrq=                  "rgb:0B/64/B8"
+ColorCPUStatusNice=                     "rgb:8C/93/9A"
+
+#Net
+ColorNetIdle=                           "rgb:15/33/4E"
+ColorNetSend=                           "rgb:49/6E/94"
+ColorNetReceive=                        "rgb:BC/DF/FF"
+
+#APM
+ColorApm=                               "rgb:53/7C/A2"
+ColorApmText=                           "rgb:FF/FF/FF"
+
+#Memory Manager
+ColorMEMStatusFree=                     "rgb:15/33/4E"
+ColorMEMStatusCached=                   "rgb:49/6E/94"
+ColorMEMStatusUser=                     "rgb:BC/DF/FF"
+ColorMEMStatusBuffers=                  "rgb:00/00/00"
+
+#Input
+ColorInput=                             "rgb:53/7C/A2"
+ColorInputText=                         "rgb:FF/FF/FF"
+ColorInputSelection=                    "rgb:7D/9F/BF"
+ColorInputSelectionText=                "rgb:FF/FF/FF"
+
+#ScrollBar
+ColorScrollBar=                         "rgb:53/7C/A2"
+ColorScrollBarButton=                   "rgb:80/80/80"
+ColorScrollBarSlider=                   "rgb:A2/C1/DE"
+ColorScrollBarArrow=                    "rgb:6f/8C/A6"
+ColorScrollBarButtonArrow=              "rgb:53/7C/A2"
+ColorScrollBarInactiveArrow=            "rgb:A4/DB/D5"
+
+#Fonts
+TitleFontNameXft=                       "sans-serif:size=8:bold"
+StatusFontNameXft=                      "sans-serif:size=8:bold"
+MenuFontNameXft=                        "sans-serif:size=8:bold"
+NormalTaskBarFontNameXft=               "sans-serif:size=8:bold"
+ActiveTaskBarFontNameXft=               "sans-serif:size=8:bold"
+ListBoxFontNameXft=                     "sans-serif:size=8:bold"
+ToolTipFontNameXft=                     "sans-serif:size=9:bold"
+QuickSwitchFontNameXft=                 "sans-serif:size=10:bold"
+ClockFontNameXft=                       "sans-serif:size=8:bold"
+
+#Desktop
+DesktopBackgroundImage=                 ""
+DesktopBackgroundScaled=                1
+DesktopBackgroundColor=                 "rgb:4C/6F/93"
+DesktopTransparencyColor=               "rgb:4C/6F/93"
+DesktopTransparencyImage=               ""

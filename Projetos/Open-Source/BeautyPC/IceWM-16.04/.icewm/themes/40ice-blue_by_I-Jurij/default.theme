@@ -1,0 +1,129 @@
+ThemeName="40ice"
+ThemeDescription="Numix colors for IceWM"
+ThemeAuthor="Yuri Smirnoff (40prog@gmail.com)"
+License="GPL"
+Look=flat
+# taskbar
+ColorDefaultTaskBar="rgb:44/44/44"
+ColorNormalTaskBarApp="rgb:44/44/44"
+ColorNormalTaskBarAppText="white"
+ColorActiveTaskBarApp="rgb:4b/46/f6"
+ColorActiveTaskBarAppText="white"
+ColorMinimizedTaskBarApp="rgb:44/44/44"
+ColorMinimizedTaskBarAppText="white"
+ColorInvisibleTaskBarApp="rgb:44/44/44"
+ColorInvisibleTaskBarAppText="white"
+#  default number of tasks in taskbar
+TaskbarButtonWidthDivisor=1 # [1-25]
+# title bar
+TitleBarHeight=19
+TitleBarCentered=0
+TitleBarJustify=50
+#  Hide title bar when maximized
+HideTitleBarWhenMaximized=1 # 0/1
+# window title
+TitleButtonsSupported	=	"sxmihrd"
+TitleButtonsLeft		=	"xmis"
+TitleButtonsRight		=	""
+# window border
+BorderSizeX=1
+BorderSizeY=1
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+ColorNormalBorder="rgb:44/44/44"
+ColorActiveBorder="rgb:44/44/44"
+ColorNormalButton="rgb:44/44/44"
+ColorActiveButton="rgb:44/44/44"
+ColorNormalTitleBar="rgb:44/44/44"
+ColorActiveTitleBar="rgb:44/44/44"
+ColorNormalTitleBarText="white"
+ColorActiveTitleBarText="white"
+
+ColorNormalMenu="rgb:44/44/44"
+ColorActiveMenuItem="rgb:44/44/44"
+ColorNormalMenuItemText="white"
+ColorActiveMenuItemText="white"
+ColorDisabledMenuItemText="rgb:fa/fa/fa"
+
+ColorMoveSizeStatus="rgb:44/44/44"
+ColorMoveSizeStatusText="rgb:4b/46/f6"
+
+#  quickswitch window
+ColorQuickSwitch="rgb:44/44/44"
+ColorQuickSwitchText="white"
+ColorQuickSwitchActive="rgb:4b/46/f6"
+QuickSwitchHorzMargin=0 # [0-64]
+QuickSwitchVertMargin=0 # [0-64]
+QuickSwitchIconMargin=0 # [0-64]
+QuickSwitchIconBorder=3 # [0-64]
+QuickSwitchSeparatorSize=0 # [0-64]
+# desktop
+DesktopBackgroundColor="rgb:4b/46/f6"
+DesktopBackgroundCenter=0 # 0 / 1
+DesktopBackgroundScaled=1 # 0 / 1
+DesktopBackgroundImage = "wallpaper.png"
+DesktopBackgroundImageScaled=1 # 0 / 1
+# scrollbar
+ColorScrollBar="rgb:44/44/44"
+ColorScrollBarArrow="rgb:44/44/44"
+ColorScrollBarSlider="rgb:44/44/44"
+# listbox
+ColorListBox="rgb:44/44/44"
+ColorListBoxText="rgb:5f/5f/5f"
+ColorListBoxSelection="rgb:44/44/44"
+ColorListBoxSelectionText="rgb:4b/46/f6"
+# tooltips
+ColorToolTip="rgb:44/44/44"
+ColorToolTipText="white"
+ColorLabel="rgb:44/44/44"
+ColorLabelText="rgb:c0/c0/c0"
+# clock
+ColorClock="rgb:44/44/44"
+ColorClockText="white"
+# cpu
+ColorCPUStatusUser="rgb:4b/46/f6"
+ColorCPUStatusSystem="rgb:c0/c0/c0"
+ColorCPUStatusNice="white"
+ColorCPUStatusIdle="rgb:44/44/44"
+# net monitor
+ColorNetSend="rgb:4b/46/f6"
+ColorNetReceive="rgb:44/44/44"
+ColorNetIdle="white"
+# workspaces
+ColorActiveWorkspaceButton="rgb:4b/46/f6"
+ColorActiveWorkspaceButtonText="white"
+SmallIconSize=16
+# Fonts
+TitleFontName="-*-verdana-bold-r-normal-*-13-*-*-*-p-*-koi8-r"
+TitleFontNameXft="verdana:size=10:bold"
+MenuFontNameXft	           =    "Snap:size=10,sans-serif:size=8"
+MinimizedWindowFontNameXft =    "Snap:size=10,sans-serif:size=8"
+ActiveButtonFontNameXft    =    "Snap:size=10,sans-serif:size=8:bold"
+NormalButtonFontNameXft    =    "Snap:size=10,sans-serif:size=8"
+QuickSwitchFontNameXft     =    "Snap:size=10,sans-serif:size=8"
+ListBoxFontNameXft         =    "Snap:size=10,sans-serif:size=8"
+StatusFontNameXft          =    "Snap:size=10,sans-serif:size=8"
+ToolTipFontNameXft         =    "Snap:size=10,sans-serif:size=8"
+ActiveTaskBarFontNameXft   =    "Snap:size=10,sans-serif:size=8:bold"
+NormalTaskBarFontNameXft   =    "Snap:size=10,sans-serif:size=8"
+ClockFontNameXft           =    "Snap:size=10,sans-serif:size=8"
+ApmFontNameXft             =    "Snap:size=10,sans-serif:size=8"
+
+MenuFontName		=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+MinimizedWindowFontName	=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+ActiveButtonFontName	=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+NormalButtonFontName	=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+QuickSwitchFontName	=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+ListBoxFontName		=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+StatusFontName		=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+ToolTipFontName		=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+ActiveTaskBarFontName	=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+NormalTaskBarFontName	=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+ClockFontName		=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+ApmFontName		=	"-artwiz-snap-regular-r-normal-sans-10-*-*-*-*-*-*-*"
+
+#  Show position status window during move/resize
+ShowMoveSizeStatus=0 # 0/1
+
+

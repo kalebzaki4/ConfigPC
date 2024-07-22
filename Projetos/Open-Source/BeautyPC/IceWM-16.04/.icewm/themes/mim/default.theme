@@ -1,0 +1,125 @@
+ThemeDescription=  "mim for IceWM"
+ThemeAuthor="I-Jurij"
+License=                                               "LGPL"
+
+Look=                                                  flat
+Gradients= "menubg.xpm taskbuttonactive.xpm menusel.xpm workspacebuttonactive.xpm taskbuttonbg.xpm taskbuttonminimized.xpm titleAB.xpm titleAP.xpm titleAS.xpm titleAT.xpm titleIB.xpm titleIP.xpm titleIS.xpm titleIT.xpm"
+RolloverButtonsSupported=  1
+MenuMouseTracking= 1 
+TaskBarDoubleHeight= 0
+TrayDrawBevel= 0
+SmallIconSize= 24
+
+TitleButtonsLeft=                                      "s"
+TitleButtonsRight=                                     "xmi"
+TitleButtonsSupported=                                 "xmis"
+TitleBarHeight=                                        26
+TitleBarJustify=                                       5
+
+BorderSizeX=                                           5
+BorderSizeY=                                           5
+CornerSizeX=                                           25
+CornerSizeY=                                           25
+DlgBorderSizeX=                                        5
+DlgBorderSizeY=                                        5
+
+ColorNormalButton= "rgb:0d/62/a3"
+ColorNormalButtonText= "rgb:00/00/00"
+ColorActiveButton=  "rgb:0d/62/a3"
+ColorActiveButtonText="rgb:ff/ff/ff"
+
+ColorNormalTitleBarText= "rgb:4d/4d/4d"
+ColorNormalTitleBarShadow=  "rgb:66/a2/e1"
+ColorActiveTitleBarText= "rgb:00/00/00"
+ColorActiveTitleBarShadow=  "rgb:66/a2/e1"
+
+ColorActiveBorder=  "rgb:FF/FF/FF"
+ColorNormalBorder=  "rgb:FF/FF/FF"
+ColorDialog=    "rgb:41/62/82"
+ColorListBox=    "rgb:41/62/82"
+ColorListBoxText=  "rgb:FF/FF/FF"
+ColorListBoxSelection=  "rgb:c5/e7/f6"
+ColorListBoxSelectionText= "rgb:41/62/82"
+ColorScrollBar=  "rgb:69/99/A9"
+ColorScrollBarSlider= "rgb:0d/62/a3"
+ColorScrollBarButton= "rgb:0d/62/a3"
+ColorScrollBarButtonArrow=  "rgb:FF/FF/FF"
+ColorLabel=   "rgb:0d/62/a3"
+ColorLabelText=  "rgb:FF/FF/FF"
+
+ColorNormalMenu= "rgb:41/62/82"
+ColorActiveMenuItem= "rgb:40/40/40"
+ColorNormalMenuItemText= "rgb:00/00/00"
+ColorActiveMenuItemText= "rgb:00/00/00"
+ColorDisabledMenuItemText= "rgb:80/80/80"
+
+ColorDefaultTaskBar= "rgb:0d/62/a3"
+ColorNormalTaskBarApp= "rgb:0d/62/a3"
+ColorNormalTaskBarAppText= "rgb:ff/ff/ff"
+ColorInvisibleTaskBarApp= "rgb:0d/62/a3"
+ColorInvisibleTaskBarAppText= "rgb:ff/ff/ff"
+ColorActiveTaskBarApp=  "rgb:30/30/30"
+ColorActiveTaskBarAppText=   "rgb:ff/ff/ff"
+ColorMinimizedTaskBarApp= "rgb:0d/62/a3"
+ColorMinimizedTaskBarAppText= "rgb:ff/ff/ff"
+ColorNormalWorkspaceButton= "rgb:07/4E/85"
+ColorNormalWorkspaceButtonText= "rgb:ff/ff/ff"
+ColorActiveWorkspaceButton= "rgb:24/7B/BD"
+ColorActiveWorkspaceButtonText= "rgb:ff/ff/ff"
+ColorToolButton=""
+ColorToolButtonText=""
+
+ColorInput=  "rgb:0d/62/a3"
+ColorInputText= "rgb:FF/FF/FF"
+
+ColorClock= ""
+ColorClockText= "rgb:ff/ff/ff"
+
+ColorCPUStatusUser= "rgb:FF/FF/FF"
+ColorCPUStatusSystem= "rgb:28/48/61"
+ColorCPUStatusNice= "rgb:FF/00/00"
+ColorCPUStatusIdle=   "rgb:00/00/00"
+
+ColorNetSend=  "rgb:FF/FF/FF"
+ColorNetReceive= "rgb:28/48/61"
+ColorNetIdle=    "rgb:00/00/00"
+
+ColorToolTip=  "rgb:ed/ed/ed"
+ColorToolTipText=  "rgb:4d/4d/4d"
+
+ColorMoveSizeStatus= "rgb:e8/ec/f6"
+ColorMoveSizeStatusText= "rgb:00/00/00"
+
+ColorQuickSwitch= "rgb:e8/ec/f6"
+ColorQuickSwitchText=  "rgb:00/00/00"
+
+
+#Memory Manager
+ColorMEMStatusFree=  "rgb:00/00/00"
+ColorMEMStatusCached= "rgb:90/ee/90"
+ColorMEMStatusUser=  "rgb:00/ab/00"
+ColorMEMStatusBuffers=  "rgb:ad/d8/e6"
+
+
+# Font Specification
+TitleFontNameXft=	Sans:size=10
+MenuFontNameXft= Sans:size=10
+MinimizedWindowFontNameXft=	 Sans:size=10:bold
+ActiveButtonFontNameXft= Sans:size=10:bold
+NormalButtonFontNameXft= Sans:size=10:bold
+ToolButtonFontNameXft= Sans:size=10:bold
+NormalWorkspaceFontNameXft=	 Sans:size=10
+ActiveWorkspaceFontNameXft=	 Sans:size=10:bold
+QuickSwitchFontNameXft=	 Sans:size=10:bold
+ListBoxFontNameXft=	  Sans:size=10:bold
+StatusFontNameXft=	Sans:size=10:bold
+ToolTipFontNameXft=	Sans:size=10:bold
+ActiveTaskBarFontNameXft=	Sans:size=10:bold
+NormalTaskBarFontNameXft=	Sans:size=10
+ClockFontNameXft=	  Sans:size=10:bold
+InputFontNameXft=	Sans:size=10:bold
+
+TaskBarClockLeds= 0
+DesktopBackgroundCenter= 1
+DesktopBackgroundColor="rgb:00/43/7a"
+#DesktopBackgroundImage= 'wallpaper.jpg'

@@ -1,0 +1,240 @@
+{
+  "__VERSION__": "183",
+  "Main": {
+    "Controls": [
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/0",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #1",
+        "NickName": "Fan #1",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": true,
+        "Identifier": "/lpc/nct6798d/control/1",
+        "IsHidden": false,
+        "ManualControl": true,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #2",
+        "NickName": "Fan #2",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/1",
+          "IsHidden": false,
+          "Name": "Fan #2",
+          "NickName": "Fan #2"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IsHidden": false,
+          "Name": "Flat curve example",
+          "Percent": 50.0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/2",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #3",
+        "NickName": "Fan #3",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/3",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #4",
+        "NickName": "Fan #4",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/4",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #5",
+        "NickName": "Fan #5",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/5",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #6",
+        "NickName": "Fan #6",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/6",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #7",
+        "NickName": "Fan #7",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      }
+    ],
+    "CustomSensors": [],
+    "FanCurves": [
+      {
+        "CommandMode": 0,
+        "IsHidden": false,
+        "Name": "Flat curve example",
+        "Percent": 50.0
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6798d/fan/0",
+        "IsHidden": false,
+        "Name": "Fan #1",
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/1",
+        "IsHidden": false,
+        "Name": "Fan #2",
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/2",
+        "IsHidden": false,
+        "Name": "Fan #3",
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/3",
+        "IsHidden": false,
+        "Name": "Fan #4",
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/4",
+        "IsHidden": false,
+        "Name": "Fan #5",
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/5",
+        "IsHidden": false,
+        "Name": "Fan #6",
+        "NickName": "Fan #6"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/6",
+        "IsHidden": false,
+        "Name": "Fan #7",
+        "NickName": "Fan #7"
+      }
+    ],
+    "HideFanSpeedCards": false,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF000000",
+    "SecondaryColor": "#FFFFFFFF",
+    "SelectedTheme": "Inherit",
+    "ShowHiddenCards": true,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TemperatureSensors": [],
+    "TrayIconColor": "#FFFFFFFF",
+    "TrayIcons": []
+  },
+  "Sensors": {
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "InpOut": false,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    },
+    "SensorCount": 21
+  }
+}

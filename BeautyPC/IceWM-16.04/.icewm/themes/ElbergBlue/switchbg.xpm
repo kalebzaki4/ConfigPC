@@ -1,8 +1,0 @@
-/* XPM */
-static char * menusel_xpm[] = {
-"1 2 3 1",
-" 	c None",
-".	c #005392",
-"+	c #009DB4",
-".",
-"+"};

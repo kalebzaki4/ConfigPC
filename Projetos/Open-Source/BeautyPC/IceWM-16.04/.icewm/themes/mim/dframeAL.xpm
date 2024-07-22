@@ -1,0 +1,9 @@
+/* XPM */
+static char * dframeAL_xpm[] = {
+"5 1 5 1",
+" 	c None",
+".	c #0A1B2D",
+"+	c #D4E5F7",
+"@	c #3686DF",
+"#	c #5C6167",
+".+@@#"};

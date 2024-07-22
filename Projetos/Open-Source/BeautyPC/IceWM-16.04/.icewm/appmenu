@@ -1,0 +1,267 @@
+menu "Accesibilidad" folder {
+prog "Florence Virtual Keyboard" /usr/share/pixmaps/florence.svg florence
+prog "Onboard" noicon.png onboard
+prog "Spotlighter" /usr/share/pixmaps/spotlighter.xpm spotlighter
+}
+menu "Configuración" folder {
+prog "Acerca de mí" noicon.png /usr/bin/mugshot
+prog "Actualización de software" noicon.png /usr/bin/update-manager
+prog "Administrador Bluetooth" /usr/share/icons/hicolor/48x48/apps/blueman.png blueman-manager
+prog "Administrador de archivos" noicon.png thunar-settings
+prog "Administrador de energía" noicon.png xfce4-power-manager-settings
+prog "Ajustes de KDE Connect" /usr/share/icons/hicolor/48x48/apps/kdeconnect.png kcmshell5 kcm_kdeconnect
+prog "Ajustes del monitor" noicon.png lxrandr
+prog "Ajustes QT5" noicon.png qt5ct
+prog "Centro de control de LADI" noicon.png ladi-control-center
+prog "CompizConfig Settings Manager" /usr/share/icons/hicolor/48x48/apps/ccsm.png ccsm
+prog "Conexiones de red" noicon.png nm-connection-editor
+prog "Configuración de la interfaz GTK+ de LightDM" /usr/share/icons/hicolor/48x48/apps/lightdm-gtk-greeter-settings.png lightdm-gtk-greeter-settings-pkexec
+prog "Configuración de Onboard" noicon.png onboard-settings
+prog "Discos" /usr/share/icons/hicolor/48x48/apps/gnome-disks.png gnome-disks
+prog "Dispositivos y soportes extraíbles" noicon.png thunar-volman-settings
+prog "Gestor de paquetes Synaptic" /usr/share/pixmaps/synaptic.png synaptic-pkexec
+prog "Hora y fecha" /usr/share/icons/hicolor/48x48/apps/time-admin.png time-admin
+prog "Impresoras" noicon.png system-config-printer
+prog "LADI Log File Viewer" /usr/share/icons/hicolor/48x48/apps/ladi-system-log.png ladi-system-log
+prog "Personalizar apariencia y comportamiento" noicon.png lxappearance
+prog "Qt 4 Settings" /usr/share/pixmaps/qtconfig-qt4.png /usr/bin/qtconfig-qt4
+prog "Red" noicon.png network-admin
+prog "Salvapantallas" /usr/share/pixmaps/xscreensaver.xpm xscreensaver-demo
+prog "Software y actualizaciones" /usr/share/icons/hicolor/48x48/apps/software-properties.png software-properties-gtk
+prog "Soporte de idiomas" noicon.png /usr/bin/gnome-language-selector
+prog "TeXdoctk" - texdoctk
+prog "Ubuntu Studio Controls" /usr/share/icons/hicolor/48x48/apps/ubuntustudio-controls.png ubuntustudio-controls-pkexec
+prog "Usuarios y grupos" noicon.png users-admin
+}
+menu "Editores" folder {
+prog "Editor de textos" /usr/share/icons/hicolor/48x48/apps/gedit.png gedit
+prog "Mousepad" noicon.png mousepad
+prog "Pluma" noicon.png pluma
+}
+menu "Educación" folder {
+prog "GoldenDict" /usr/share/pixmaps/goldendict.png goldendict
+prog "LibreOffice Math" /usr/share/icons/hicolor/48x48/apps/libreoffice-math.png icewm-menu-fdo "/usr/share/applications/libreoffice-math.desktop"
+}
+menu "Gráficos" folder {
+prog "Converseen" /usr/share/pixmaps/converseen.png converseen
+prog "E-book Viewer" /usr/share/icons/hicolor/48x48/apps/calibre-viewer.png ebook-viewer
+prog "FoxitReader" /home/wachin/.local/share/icons/hicolor/64x64/apps/FoxitReader.png /home/wachin/opt/foxitsoftware/foxitreader/FoxitReader.sh
+prog "Geeqie" /usr/share/pixmaps/geeqie.png icewm-menu-fdo "/usr/share/applications/geeqie.desktop"
+prog "Gromit-MPX" /usr/share/pixmaps/gromit-mpx.png gromit-mpx
+prog "Hugin Batch Processor" /usr/share/pixmaps/ptbatcher.png PTBatcherGUI
+prog "Hugin Calibrate Lens" /usr/share/pixmaps/hugin.png calibrate_lens_gui
+prog "Hugin Panorama Creator" /usr/share/pixmaps/hugin.png hugin
+prog "Inkscape" /usr/share/icons/hicolor/48x48/apps/inkscape.png inkscape
+prog "KeyMon" /usr/share/pixmaps/key-mon.xpm key-mon
+prog "Krita" /usr/share/icons/hicolor/48x48/apps/calligrakrita.png krita
+prog "KRuler" /usr/share/icons/hicolor/48x48/apps/kruler.png kruler
+prog "LibreOffice Draw" /usr/share/icons/hicolor/48x48/apps/libreoffice-draw.png icewm-menu-fdo "/usr/share/applications/libreoffice-draw.desktop"
+prog "LRF Viewer" /usr/share/icons/hicolor/48x48/apps/calibre-viewer.png lrfviewer
+prog "MyPaint" /usr/share/icons/hicolor/48x48/apps/mypaint.png mypaint
+prog "PhotoPrint" /usr/share/icons/hicolor/48x48/apps/fotoprint.png photoprint
+prog "Phototonic" /usr/share/icons/hicolor/48x48/apps/phototonic.png phototonic
+prog "Programa de manipulación de imágenes de GNU" /usr/share/icons/hicolor/48x48/apps/gimp.png gimp-2.10
+prog "Simple Scan" noicon.png simple-scan
+prog "Visor de documentos" /usr/share/icons/hicolor/48x48/apps/evince.png evince
+prog "Visor de imágenes Ristretto" /usr/share/icons/hicolor/48x48/apps/ristretto.png ristretto
+}
+menu "Juegos" folder {
+prog "Black Box" /usr/share/icons/hicolor/48x48/apps/sgt-blackbox.png sgt-blackbox
+prog "Bridges" /usr/share/icons/hicolor/48x48/apps/sgt-bridges.png sgt-bridges
+prog "Colección de puzles SGT" /usr/share/pixmaps/sgt-launcher.png /usr/games/sgt-launcher
+prog "Cube" /usr/share/icons/hicolor/48x48/apps/sgt-cube.png sgt-cube
+prog "Dominosa" /usr/share/icons/hicolor/48x48/apps/sgt-dominosa.png sgt-dominosa
+prog "Fifteen" /usr/share/icons/hicolor/48x48/apps/sgt-fifteen.png sgt-fifteen
+prog "Filling" /usr/share/icons/hicolor/48x48/apps/sgt-filling.png sgt-filling
+prog "Flip" /usr/share/icons/hicolor/48x48/apps/sgt-flip.png sgt-flip
+prog "Flood" /usr/share/icons/hicolor/48x48/apps/sgt-flood.png sgt-flood
+prog "Galaxies" /usr/share/icons/hicolor/48x48/apps/sgt-galaxies.png sgt-galaxies
+prog "Guess" /usr/share/icons/hicolor/48x48/apps/sgt-guess.png sgt-guess
+prog "Inertia" /usr/share/icons/hicolor/48x48/apps/sgt-inertia.png sgt-inertia
+prog "Keen" /usr/share/icons/hicolor/48x48/apps/sgt-keen.png sgt-keen
+prog "Light Up" /usr/share/icons/hicolor/48x48/apps/sgt-lightup.png sgt-lightup
+prog "Loopy" /usr/share/icons/hicolor/48x48/apps/sgt-loopy.png sgt-loopy
+prog "Magnets" /usr/share/icons/hicolor/48x48/apps/sgt-magnets.png sgt-magnets
+prog "Map" /usr/share/icons/hicolor/48x48/apps/sgt-map.png sgt-map
+prog "Minas" /usr/share/icons/hicolor/48x48/apps/gnome-mines.png gnome-mines
+prog "Mines" /usr/share/icons/hicolor/48x48/apps/sgt-mines.png sgt-mines
+prog "Net" /usr/share/icons/hicolor/48x48/apps/sgt-net.png sgt-net
+prog "Netslide" /usr/share/icons/hicolor/48x48/apps/sgt-netslide.png sgt-netslide
+prog "Palisade" /usr/share/icons/hicolor/48x48/apps/sgt-palisade.png sgt-palisade
+prog "Pattern" /usr/share/icons/hicolor/48x48/apps/sgt-pattern.png sgt-pattern
+prog "Pearl" /usr/share/icons/hicolor/48x48/apps/sgt-pearl.png sgt-pearl
+prog "Pegs" /usr/share/icons/hicolor/48x48/apps/sgt-pegs.png sgt-pegs
+prog "Range" /usr/share/icons/hicolor/48x48/apps/sgt-range.png sgt-range
+prog "Rectangles" /usr/share/icons/hicolor/48x48/apps/sgt-rect.png sgt-rect
+prog "Same Game" /usr/share/icons/hicolor/48x48/apps/sgt-samegame.png sgt-samegame
+prog "Signpost" /usr/share/icons/hicolor/48x48/apps/sgt-signpost.png sgt-signpost
+prog "Singles" /usr/share/icons/hicolor/48x48/apps/sgt-singles.png sgt-singles
+prog "Sixteen" /usr/share/icons/hicolor/48x48/apps/sgt-sixteen.png sgt-sixteen
+prog "Slant" /usr/share/icons/hicolor/48x48/apps/sgt-slant.png sgt-slant
+prog "Solo" /usr/share/icons/hicolor/48x48/apps/sgt-solo.png sgt-solo
+prog "Sudoku" /usr/share/icons/hicolor/48x48/apps/gnome-sudoku.png gnome-sudoku
+prog "Tents" /usr/share/icons/hicolor/48x48/apps/sgt-tents.png sgt-tents
+prog "Towers" /usr/share/icons/hicolor/48x48/apps/sgt-towers.png sgt-towers
+prog "Tracks" /usr/share/icons/hicolor/48x48/apps/sgt-tracks.png sgt-tracks
+prog "Twiddle" /usr/share/icons/hicolor/48x48/apps/sgt-twiddle.png sgt-twiddle
+prog "Undead" /usr/share/icons/hicolor/48x48/apps/sgt-undead.png sgt-undead
+prog "Unequal" /usr/share/icons/hicolor/48x48/apps/sgt-unequal.png sgt-unequal
+prog "Unruly" /usr/share/icons/hicolor/48x48/apps/sgt-unruly.png sgt-unruly
+prog "Untangle" /usr/share/icons/hicolor/48x48/apps/sgt-untangle.png sgt-untangle
+}
+menu "Multimedia" folder {
+prog "Aegisub" /usr/share/icons/hicolor/48x48/apps/aegisub.png aegisub
+prog "Aeolus" /usr/share/pixmaps/audio-x-generic.xpm /usr/bin/aeolus
+prog "Ardour5" noicon.png /usr/bin/ardour5
+prog "AT1" /usr/share/pixmaps/zita-at1.xpm zita-at1
+prog "Audacity" /usr/share/icons/hicolor/48x48/apps/audacity.png audacity
+prog "Avidemux 2.6 (Jobs)" /usr/share/pixmaps/avidemux2.6-jobs.xpm avidemux3_jobs_qt5
+prog "Avidemux 2.6 (Qt)" /usr/share/pixmaps/avidemux2.6-qt.xpm avidemux3_qt5
+prog "Brasero" /usr/share/icons/hicolor/48x48/apps/brasero.png brasero
+prog "Calf Plugin Pack for JACK" /usr/share/icons/hicolor/48x48/apps/calf.png calfjackhost
+prog "Clementine" /usr/share/pixmaps/clementine.xpm clementine
+prog "Control de Volumen de PulseAudio" noicon.png pavucontrol
+prog "Conversor de sonido" /usr/share/icons/hicolor/48x48/apps/soundconverter.png soundconverter
+prog "DGEdit" noicon.png /usr/bin/dgedit
+prog "drumkv1" noicon.png drumkv1_jack
+prog "Echomixer" noicon.png echomixer
+prog "Envy24 control" noicon.png envy24control
+prog "FFADO Mixer" noicon.png ffado-mixer
+prog "FF Multi Converter" /usr/share/pixmaps/ffmulticonverter.png ffmulticonverter
+prog "Foo YC20" /usr/share/foo-yc20/graphics/icon.png foo-yc20
+prog "gladish" /usr/share/icons/hicolor/48x48/apps/gladish.png gladish
+prog "Gmidimonitor (with ALSA support)" /usr/share/pixmaps/gmidimonitor_32x32.xpm gmidimonitor --alsa
+prog "Gmidimonitor (with JACK support)" /usr/share/pixmaps/gmidimonitor_32x32.xpm gmidimonitor --jack
+prog "guitarix" /usr/share/pixmaps/gx_head.png guitarix
+prog "HDAJackRetask" noicon.png hdajackretask
+prog "HDSPConf" noicon.png hdspconf
+prog "HDSPMixer" noicon.png hdspmixer
+prog "Hexter" /usr/share/pixmaps/hexter.xpm jack-dssi-host hexter.so
+prog "Hydrogen" noicon.png hydrogen
+prog "JACK Keyboard" /usr/share/pixmaps/jack-keyboard.png jack-keyboard
+prog "JACK Rack" /usr/share/pixmaps/jack-rack-icon.png jack-rack
+prog "JAMin" noicon.png /usr/share/jamin/jamin-wrapper
+prog "K3b" /usr/share/icons/hicolor/48x48/apps/k3b.png k3b
+prog "Kazam" /usr/share/icons/hicolor/48x48/apps/kazam.png kazam
+prog "Kdenlive" /usr/share/icons/hicolor/48x48/apps/kdenlive.png kdenlive
+prog "Kid3-qt" /usr/share/icons/hicolor/48x48/apps/kid3-qt.png icewm-menu-fdo "/usr/share/applications/kid3-qt.desktop"
+prog "KMid" /usr/share/icons/hicolor/48x48/apps/kmid.png kmid
+prog "Kylin Video" /usr/share/pixmaps/kylin-video.png kylin-video
+prog "LADI System Tray" /usr/share/icons/hicolor/48x48/apps/laditools.png ladi-system-tray
+prog "LMMS" /usr/share/pixmaps/lmms.png icewm-menu-fdo "/usr/share/applications/lmms.desktop"
+prog "MediaInfo" /usr/share/pixmaps/mediainfo.xpm mediainfo-gui
+prog "Meterbridge" /usr/share/pixmaps/meterbridge32x32.xpm /usr/bin/meterbridge -t vu alsa_pcm:playback_1 alsa_pcm:playback_2
+prog "mkvinfo" /usr/share/icons/hicolor/48x48/apps/mkvinfo.png icewm-menu-fdo "/usr/share/applications/org.bunkus.mkvinfo.desktop"
+prog "MKVToolNix GUI" /usr/share/icons/hicolor/48x48/apps/mkvtoolnix-gui.png mkvtoolnix-gui
+prog "mpv Media Player" noicon.png icewm-menu-fdo "/usr/share/applications/mpv.desktop"
+prog "Mudita24" /usr/share/pixmaps/mudita24.xpm mudita24
+prog "MuseScore 2" /usr/share/icons/hicolor/48x48/apps/mscore.png mscore
+prog "OpenKJ" /usr/share/pixmaps/okjicon.svg /usr/bin/OpenKJ
+prog "OpenLP" /usr/share/icons/hicolor/48x48/apps/openlp.png openlp
+prog "Patchage" /usr/share/icons/hicolor/48x48/apps/patchage.png /usr/bin/patchage
+prog "Petri-Foo" /usr/share/icons/hicolor/48x48/apps/petri-foo.png petri-foo
+prog "PHASEX" /usr/share/pixmaps/phasex.xpm phasex
+prog "PNMixer" noicon.png pnmixer
+prog "puddletag" /usr/share/pixmaps/puddletag.png puddletag
+prog "Pure Data" /usr/share/pixmaps/puredata.xpm /usr/lib/puredata/tcl/pd-gui.tcl
+prog "QasConfig" /usr/share/icons/hicolor/48x48/apps/qasconfig.png qasconfig
+prog "QasHctl" /usr/share/icons/hicolor/48x48/apps/qashctl.png qashctl
+prog "QasMixer" /usr/share/icons/hicolor/48x48/apps/qasmixer.png qasmixer
+prog "QjackCtl" /usr/share/pixmaps/qjackctl.xpm /usr/bin/qjackctl
+prog "QMidiArp" noicon.png qmidiarp
+prog "QmidiNet" noicon.png qmidinet
+prog "Qmidiroute" /usr/share/pixmaps/qmidiroute_32x32.xpm qmidiroute
+prog "Qsynth" noicon.png qsynth
+prog "Qtractor" noicon.png qtractor
+prog "Rakarrack" /usr/share/pixmaps/icono_rakarrack_128x128.png rakarrack
+prog "Reproductor de LADI" /usr/share/icons/hicolor/48x48/apps/ladi-player.png ladi-player
+prog "Reproductor multimedia Parole" /usr/share/icons/hicolor/48x48/apps/parole.png parole
+prog "Reproductor multimedia VLC" /usr/share/icons/hicolor/48x48/apps/vlc.png icewm-menu-fdo "/usr/share/applications/vlc.desktop"
+prog "Rmedigicontrol" noicon.png rmedigicontrol
+prog "Rosegarden" noicon.png rosegarden
+prog "samplv1" noicon.png samplv1_jack
+prog "SimpleScreenRecorder" /usr/share/icons/hicolor/48x48/apps/simplescreenrecorder.png simplescreenrecorder --logfile
+prog "SooperLooper" /usr/share/pixmaps/sooperlooper.xpm /usr/bin/slgui
+prog "synthv1" noicon.png synthv1_jack
+prog "Virtual MIDI Keyboard" /usr/share/pixmaps/vkeybd.xpm vkeybd
+prog "Xjadeo" noicon.png /usr/bin/xjadeo
+prog "XVidCap Screen Capture" /usr/share/pixmaps/xvidcap.png xvidcap
+prog "Yoshimi" /usr/share/pixmaps/yoshimi.png yoshimi
+prog "Zita-mu1" /usr/share/pixmaps/zita-mu1.xpm zita-mu1
+prog "Zita-Rev1" /usr/share/pixmaps/zita-rev1.xpm zita-rev1
+prog "ZynAddSubFX - Alsa" noicon.png zynaddsubfx -I alsa -O alsa
+prog "ZynAddSubFX - Jack" noicon.png zynaddsubfx -I jack -O jack
+prog "ZynAddSubFX - OSS" noicon.png zynaddsubfx -I OSS -O OSS
+}
+menu "Oficina" folder {
+prog "calibre" /usr/share/icons/hicolor/48x48/apps/calibre-gui.png calibre
+prog "Diccionario" noicon.png xfce4-dict
+prog "E-book Editor" /usr/share/icons/hicolor/48x48/apps/calibre-ebook-edit.png ebook-edit
+prog "Foxit Reader" /usr/share/icons/hicolor/48x48/apps/FoxitReader.png /home/wachin/opt/foxitsoftware/foxitreader/FoxitReader.sh
+prog "LibreOffice" /usr/share/icons/hicolor/48x48/apps/libreoffice-startcenter.png libreoffice
+prog "LibreOffice Base" /usr/share/icons/hicolor/48x48/apps/libreoffice-base.png icewm-menu-fdo "/usr/share/applications/libreoffice-base.desktop"
+prog "LibreOffice Calc" /usr/share/icons/hicolor/48x48/apps/libreoffice-calc.png icewm-menu-fdo "/usr/share/applications/libreoffice-calc.desktop"
+prog "LibreOffice Impress" /usr/share/icons/hicolor/48x48/apps/libreoffice-impress.png icewm-menu-fdo "/usr/share/applications/libreoffice-impress.desktop"
+prog "LibreOffice Writer" /usr/share/icons/hicolor/48x48/apps/libreoffice-writer.png icewm-menu-fdo "/usr/share/applications/libreoffice-writer.desktop"
+prog "PDF-Shuffler" /usr/share/pixmaps/pdfshuffler.png pdfshuffler
+prog "Visor de documentos Atril" /usr/share/icons/hicolor/48x48/apps/atril.png atril
+prog "WPS Presentation" /usr/share/icons/hicolor/48x48/apps/wps-office-wppmain.png /usr/bin/wpp
+prog "WPS Spreadsheets" /usr/share/icons/hicolor/48x48/apps/wps-office-etmain.png /usr/bin/et
+prog "WPS Writer" /usr/share/icons/hicolor/48x48/apps/wps-office-wpsmain.png /usr/bin/wps
+}
+menu "Red" folder {
+prog "Cliente de correo Thunderbird" /usr/share/pixmaps/thunderbird.png thunderbird
+prog "Cliente de mensajería de Internet Pidgin" /usr/share/icons/hicolor/48x48/apps/pidgin.png pidgin
+prog "Dropbox" /usr/share/icons/hicolor/48x48/apps/dropbox.png dropbox start -i
+prog "Hv3 Web Browser" - hv3
+prog "Indicador de KDE Connect" /usr/share/icons/hicolor/48x48/apps/kdeconnect.png kdeconnect-indicator
+prog "Internet DJ Console" /usr/share/pixmaps/idjc.png /usr/bin/idjc
+prog "KDE Connect Indicator Settings" /usr/share/icons/hicolor/48x48/apps/kdeconnect.png indicator-kdeconnect-settings
+prog "Navegador web Chromium" /usr/share/icons/hicolor/48x48/apps/chromium-browser.png chromium-browser
+prog "Navegador web Firefox" /usr/share/icons/hicolor/48x48/apps/firefox.png firefox
+prog "Telegram Desktop" noicon.png icewm-menu-fdo "/home/wachin/.local/share/applications/telegramdesktop.desktop"
+prog "Transmission" /usr/share/icons/hicolor/48x48/apps/transmission.png transmission-gtk
+prog "uGet" /usr/share/icons/hicolor/48x48/apps/uget-icon.png icewm-menu-fdo "/usr/share/applications/uget-gtk.desktop"
+prog "Vivaldi" /usr/share/icons/hicolor/48x48/apps/vivaldi.png /usr/bin/vivaldi-stable
+prog "Web" /usr/share/icons/hicolor/48x48/apps/org.gnome.Epiphany.png epiphany
+}
+menu "Sistema" folder {
+prog "Cambio de nombre en masa de Thunar" /usr/share/icons/hicolor/48x48/apps/Thunar.png /usr/lib/i386-linux-gnu/Thunar/ThunarBulkRename
+prog "Editor de dconf" /usr/share/icons/hicolor/48x48/apps/ca.desrt.dconf-editor.png dconf-editor
+prog "Gestor de archivos Thunar" /usr/share/icons/hicolor/48x48/apps/Thunar.png thunar
+prog "Gestor de tareas" noicon.png xfce4-taskmanager
+prog "Gigolo" noicon.png gigolo
+prog "Instalador de paquetes GDebi" noicon.png gdebi-gtk
+prog "KDE Connect Indicator" /usr/share/icons/hicolor/48x48/apps/kdeconnect.png indicator-kdeconnect
+prog "Monitor del sistema" noicon.png gnome-system-monitor
+prog "PlayOnLinux" /usr/share/pixmaps/playonlinux.png playonlinux
+prog "Software" /usr/share/icons/hicolor/48x48/apps/org.gnome.Software.png gnome-software
+prog "Terminal de Xfce" noicon.png xfce4-terminal
+prog "UXTerm" /usr/share/icons/hicolor/48x48/apps/xterm-color.png uxterm
+prog "VirtualBox" /usr/share/icons/hicolor/48x48/apps/virtualbox.png VirtualBox
+prog "XTerm" /usr/share/icons/hicolor/48x48/apps/xterm-color.png xterm
+}
+separator
+menu "Otros" folder {
+prog "Alarm Clock" /usr/share/icons/hicolor/48x48/apps/alarm-clock.png alarm-clock-applet
+prog "AP Guitar Tuner 1.02" noicon.png env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\windows\\command\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\ Menu/Programs/Audio\ Phonics,\ Inc/AP\ Guitar\ Tuner\ 1.02.lnk
+prog "Archivos" /usr/share/icons/hicolor/48x48/apps/org.gnome.Nautilus.png icewm-menu-fdo "/usr/share/applications/nautilus.desktop"
+prog "Brightness Controller" noicon.png /usr/share/brightness-controller/init.py
+prog "Brightness Controller Simple" noicon.png /usr/bin/brightness-controller-simple
+prog "Buscador de aplicaciones" noicon.png xfce4-appfinder
+prog "Búsqueda de archivos Catfish" noicon.png /usr/bin/catfish
+prog "Byobu Terminal" noicon.png x-terminal-emulator -e env TERM=xterm-256color byobu
+prog "Calculadora de MATE" noicon.png mate-calc
+prog "Captura de pantalla" /usr/share/icons/hicolor/48x48/apps/applets-screenshooter.png xfce4-screenshooter
+prog "ConvertAll" /usr/share/pixmaps/convertall/convertall.svg convertall
+prog "Double Commander" /usr/share/pixmaps/doublecmd.png doublecmd
+prog "Gestor de archivadores Engrampa" noicon.png engrampa
+prog "KRename" /usr/share/icons/hicolor/48x48/apps/krename.png icewm-menu-fdo "/usr/share/applications/org.kde.krename.desktop"
+prog "Mapa de caracteres" noicon.png gucharmap
+prog "PlayOnLinux" /usr/share/pixmaps/playonlinux-script-creator.png playonlinux-script-creator
+prog "Shutter" /usr/share/icons/hicolor/48x48/apps/shutter.png shutter
+prog "Solaar" noicon.png solaar
+prog "SpeedCrunch" /usr/share/pixmaps/speedcrunch.png speedcrunch
+prog "Tipografías" noicon.png gnome-font-viewer
+prog "Winetricks" noicon.png winetricks --gui
+}

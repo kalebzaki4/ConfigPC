@@ -1,0 +1,17 @@
+/* XPM */
+static char *menusep[] = {
+/* columns rows colors chars-per-pixel */
+"10 1 10 1 ",
+"  c #56554C",
+". c #525048",
+"X c #4E4C45",
+"o c #494842",
+"O c #45443E",
+"+ c #403F3B",
+"@ c #3C3B37",
+"# c #44433D",
+"$ c #4C4B44",
+"% c #54524A",
+/* pixels */
+" .XoO+@#$%"
+};

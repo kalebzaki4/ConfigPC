@@ -1,0 +1,9 @@
+/* XPM */
+static char * frameIL_xpm[] = {
+"5 1 5 1",
+" 	c None",
+".	c #171717",
+"+	c #8C9EB1",
+"@	c #8696A7",
+"#	c #7D8D9D",
+".+@#."};
