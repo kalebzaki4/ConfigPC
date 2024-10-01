@@ -1,9 +1,0 @@
-Os comandos "fsutil behavior set disableLastAccess" e "fsutil behavior set disable8dot3" são usados para alterar o comportamento do sistema de arquivos no seu computador. Aqui está o que cada um desses comandos faz:
-
-1. "fsutil behavior set disableLastAccess 1": Esse comando desabilita o registro do último acesso a um arquivo. Isso significa que o sistema operacional não vai mais atualizar o carimbo de data e hora do último acesso quando você abrir ou ler um arquivo. Essa configuração pode melhorar o desempenho do sistema, especialmente em dispositivos de armazenamento mais lentos, pois evita a necessidade de atualizar constantemente o registro do último acesso.
-
-2. "fsutil behavior set disable8dot3 1": Esse comando desabilita a criação de nomes de arquivos no formato 8.3. O formato 8.3 é uma convenção de nomenclatura mais antiga que permitia que os nomes de arquivos tivessem no máximo oito caracteres seguidos por uma extensão de três caracteres (por exemplo, "arquivo.txt"). Desabilitar essa funcionalidade pode economizar espaço em disco e melhorar a velocidade de criação de arquivos.
-
-Os comandos "exit" e "fsutil behavior set disableLastAccess 0" são usados para reverter as configurações feitas anteriormente. O comando "exit" é usado para sair do prompt de comando, enquanto "fsutil behavior set disableLastAccess 0" restaura a configuração padrão, permitindo que o sistema registre o último acesso aos arquivos novamente.
-
-No entanto, observe que essas configurações não têm um impacto significativo no desempenho moderno dos sistemas de arquivos e são mais relevantes em cenários específicos. Portanto, a menos que você tenha uma razão específica para alterar essas configurações, não é necessário executar esses comandos no seu PC.
