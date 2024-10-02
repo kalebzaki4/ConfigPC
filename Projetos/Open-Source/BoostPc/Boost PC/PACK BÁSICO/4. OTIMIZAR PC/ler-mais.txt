@@ -1,0 +1,36 @@
+Esses códigos são registros do Windows que fazem alterações nas configurações relacionadas a jogos e desempenho do sistema. Vou explicar cada um deles separadamente:
+
+1. Código 1:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001
+"GameDVR_FSEBehavior"=dword:00000002
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001
+```
+Esse código define algumas configurações relacionadas à gravação de jogos no modo de tela inteira (Full Screen) usando o recurso Game DVR do Windows. Os valores especificados podem alterar o comportamento do Game DVR, honrando ou não o modo de tela inteira definido pelo usuário, bem como o comportamento em relação ao Windows compatível com a tela inteira.
+
+2. Código 2:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+```
+Esse código modifica as configurações de prioridade e agendamento de tarefas relacionadas a jogos no sistema. Define a prioridade da GPU, prioridade geral da tarefa, categoria de agendamento e prioridade de E/S (entrada/saída de dados) para jogos. Essas configurações podem melhorar o desempenho de jogos no sistema.
+
+3. Código 3:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000001
+```
+Esse código modifica a responsividade do sistema em relação ao desempenho em jogos. O valor especificado (dword:00000001) indica que o sistema priorizará a capacidade de resposta em detrimento do desempenho em outros aplicativos ou tarefas em segundo plano, melhorando a experiência durante a execução de jogos.
+
+É importante ressaltar que alterações no Registro do Windows podem afetar o funcionamento do sistema e, se não forem feitas corretamente, podem causar problemas. Portanto, é recomendado ter cuidado ao modificar o Registro e fazer backup adequado antes de realizar quaisquer alterações.
