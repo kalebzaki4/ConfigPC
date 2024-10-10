@@ -1,0 +1,3 @@
+Em alguns computadores comandos que envolvem indexação ou pesquisa do Windows pode fazer o pc perder desempenho, então tome cuidado
+O pack foi testado em desktop de mesa 
+se vc usa notebook use o pack mas use com cuidado!!!
