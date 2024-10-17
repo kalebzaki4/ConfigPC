@@ -1,0 +1,3 @@
+COPIE E COLE O COMANDO NO POWERSHELL COMO ADMINISTRADOR!!!
+
+iwr -useb https://christitus.com/win | iex

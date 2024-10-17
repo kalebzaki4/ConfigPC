@@ -1,0 +1,2 @@
+irá remover a latência de seus perifericos USB
+de forma geral, é bastante eficiente, mas pode dar erros em certos casos.

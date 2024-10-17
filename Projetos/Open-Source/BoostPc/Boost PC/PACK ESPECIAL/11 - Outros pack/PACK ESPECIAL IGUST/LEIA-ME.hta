@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <meta charset="UTF-8">
+    <title>Celebração de 30k de Inscritos</title>
+    <style>
+    @keyframes moveBackground {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #9a9cd6, #000); 
+        background-size: 200% 200%;
+        animation: moveBackground 3s linear infinite, fadeInUp 3s ease forwards;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        color: #fff;
+    }
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .content {
+        width: 80%;
+        max-width: 600px;
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 15px; 
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+        text-align: center;
+    }
+    h1, p {
+        color: #333; 
+    }
+    .footer {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #FF6347;
+        height: 24px;
+        overflow: hidden; 
+        animation: blinker 1s linear infinite;
+    }
+    @keyframes blinker {
+        50% { opacity: 0; }
+    }
+    .highlight {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Obrigado pelos 30k de Inscritos!</h1>
+	<strong><p> Muito obrigado pessoal!</p></strong>
+        <p>© Direitos totais a iGust Team!</p>
+        <p>▧ Made by Memphis, Made For iGust!</p>
+        <div class="footer">
+            <span id="typeEffect"></span>
+        </div>
+    </div>
+    <script>
+        var text = "GG! ❤🎇🎇";
+        var index = 0;
+        function typeEffect() {
+            var container = document.getElementById('typeEffect');
+            if (index < text.length) {
+                var span = document.createElement('span');
+                span.className = 'highlight';
+                span.innerHTML = text.charAt(index);
+                container.appendChild(span);
+                index++;
+                setTimeout(typeEffect, 90);
+            }
+        }
+        window.onload = function() {
+            setTimeout(typeEffect, 1000); 
+        };
+    </script>
+</body>
+</html>

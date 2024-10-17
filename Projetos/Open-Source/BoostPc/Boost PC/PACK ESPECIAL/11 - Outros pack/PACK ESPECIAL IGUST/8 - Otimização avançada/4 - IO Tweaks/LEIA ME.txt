@@ -1,0 +1,3 @@
+Bom, esses tweaks mexem em prioridades de serviços do Windows.
+Ele pode ser prejudicial em alguns casos, se for seu caso, use o ponto de restauração ou formate.
+ 

@@ -1,0 +1,2 @@
+Windows Registry Editor Version 5.00
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v MenuShowDelay /t REG_SZ /d 400 /f

@@ -1,0 +1,1 @@
+use o ponto de restauração caso dê erro em algo, esse batch script mexe bastante em coisas envolvendo prioridades.. Então pode ser perigoso em alguns casos.

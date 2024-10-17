@@ -1,0 +1,4 @@
+@echo off
+bcdedit /set useplatformtick yes&&bcdedit /set disabledynamictick yes&&bcdedit /set disabledynamictick yes&&bcdedit /set nx optout&&bcdedit /set nx optout&&bcdedit /set bootux disabled&&bcdedit /set bootmenupolicy standard&&bcdedit /set hypervisorlaunchtype off&&bcdedit /set tpmbootentropy ForceDisable&&bcdedit /set quietboot yes&&bcdedit /set linearaddress57 OptOut&&bcdedit /set increaseuserva 268435328&&bcdedit /set firstmegabytepolicy UseAll&&bcdedit /set avoidlowmemory 0x8000000&&bcdedit /set nolowmem Yes&&bcdedit /set allowedinmemorysettings 0x0&&bcdedit /set isolatedcontext No
+
+pause
