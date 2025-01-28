@@ -1,5 +1,0 @@
-Bom, é extremamente criar um ponto de restauração antes de executar a otimização de BIOS.
-
-Esse script irá tirar todo o "blotware" da sua CPU/BIOS.
-
-

@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=- ; Remove para o padrão (não definido)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"TCPNoDelay"=- ; Remove para o padrão (não definido)
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USB]
+"DisableSelectiveSuspend"=- ; Remove para o padrão (não definido)
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000002 ; Padrão do Windows
+
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"KeyboardDelay"="1" ; Valor padrão
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=- ; Remove para habilitar atualizações automáticas
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"=- ; Remove para o valor padrão (400)
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"=- ; Remove para o padrão
+"MouseThreshold1"=- ; Remove para o padrão
+"MouseThreshold2"=- ; Remove para o padrão
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000001 ; Reativa o UAC (padrão)

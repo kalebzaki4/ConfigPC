@@ -1,0 +1,2 @@
+Fazer alterações que envolvem literalmente a sua gpu pode resultar em problemas chatos de resolver
+ent os comandos da pasta envolvem opções de vídeo do próprio Windows

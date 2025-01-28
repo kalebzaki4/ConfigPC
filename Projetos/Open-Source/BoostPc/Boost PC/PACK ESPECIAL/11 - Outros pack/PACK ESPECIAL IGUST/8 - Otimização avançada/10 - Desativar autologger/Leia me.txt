@@ -1,1 +1,0 @@
-Essa é a versão que "capa" tudo, a versão mais "segura" está na parte de otimização básica.

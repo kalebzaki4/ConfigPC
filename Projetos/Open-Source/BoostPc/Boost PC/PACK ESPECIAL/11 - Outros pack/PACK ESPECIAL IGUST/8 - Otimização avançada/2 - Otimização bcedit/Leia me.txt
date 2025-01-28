@@ -1,2 +1,0 @@
-BCedit é tweaks de inicialização.
-Em resumo, é bastante seguro.

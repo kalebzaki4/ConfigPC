@@ -1,0 +1,1 @@
+Fazer alterações na cpu pode dar certo ou errado, então para saber se irá dar certo é só testando!

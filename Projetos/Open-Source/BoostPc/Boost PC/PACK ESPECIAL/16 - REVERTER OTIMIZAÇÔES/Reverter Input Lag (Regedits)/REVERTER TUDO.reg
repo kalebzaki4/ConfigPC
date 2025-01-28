@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=- 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"TCPNoDelay"=- 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USB]
+"DisableSelectiveSuspend"=- 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000002 
+
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"KeyboardDelay"="1" 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=- 
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"=-
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"=- 
+"MouseThreshold1"=- 
+"MouseThreshold2"=- 
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000001 
