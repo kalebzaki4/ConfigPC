@@ -32,6 +32,6 @@ Contribuições são bem-vindas! Se você deseja adicionar melhorias ou corrigir
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a [Licença XYZ](link_para_licenca).
+Este projeto está licenciado sob a [Licença](link_para_licenca).
 
 Feito com ❤️ e dedicação por [kalebzaki4](https://www.github.com/kalebzaki4).
