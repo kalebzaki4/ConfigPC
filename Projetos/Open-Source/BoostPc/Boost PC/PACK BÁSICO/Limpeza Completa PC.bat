@@ -26,9 +26,9 @@ echo /**   //**   /**   //*******  ********/**     /**/** //**/**
 echo //     //    //     ///////  //////// //      // //   // //
 echo.
 
-:: Parar processos desnecessários antes da limpeza
+:: Fechar processos desnecessários antes da limpeza
 echo 🔴 Fechando processos desnecessários...
-for %%P in (OneDrive.exe steam.exe Discord.exe chrome.exe opera.exe firefox.exe msedge.exe) do (
+for %%P in (OneDrive.exe steam.exe Discord.exe chrome.exe firefox.exe msedge.exe) do (
     taskkill /F /IM %%P >nul 2>&1
 )
 
@@ -58,67 +58,79 @@ for %%U in ("C:\Windows\SoftwareDistribution\Download" "C:\Windows\SoftwareDistr
 net start wuauserv >nul 2>&1
 net start bits >nul 2>&1
 
-:: Limpeza de relatórios de erros do Windows
-echo ❌ Limpando relatórios de erros do Windows...
-for %%E in ("C:\ProgramData\Microsoft\Windows\WER\ReportQueue" "C:\ProgramData\Microsoft\Windows\WER\Temp" "C:\Users\%USERNAME%\AppData\Local\Microsoft\Windows\WER") do (
-    del /s /q "%%E\*.*" >nul 2>&1
-)
-
 :: Limpeza de caches do sistema
 echo 💾 Limpando caches do sistema...
 for %%C in ("C:\Users\%USERNAME%\AppData\Local\Microsoft\Windows\Explorer" "C:\Users\%USERNAME%\AppData\Local\Microsoft\Windows\Fonts") do (
     del /s /q "%%C\*.*" >nul 2>&1
 )
 
-:: Limpeza de cache de navegadores
-echo 🌐 Limpando cache dos navegadores...
-for %%B in (
-    "C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default\Cache"
-    "C:\Users\%USERNAME%\AppData\Local\Microsoft\Edge\User Data\Default\Cache"
-    "C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles\*.default-release\cache2\entries"
-    "C:\Users\%USERNAME%\AppData\Local\Opera Software\Opera Stable\Cache"
-) do (
-    del /s /q "%%B\*.*" >nul 2>&1
+:: 🔥 OTIMIZAÇÃO PARA O FORTNITE 🔥
+echo 🎮 Verificando se Fortnite já está em execução...
+
+:fortnite_check
+tasklist | findstr /I "FortniteClient-Win64-Shipping.exe" >nul
+if %errorlevel% equ 0 (
+    echo ✅ Fortnite detectado! Aplicando otimizações...
+    goto fortnite_boost
 )
 
-:: Limpeza de backups antigos do Windows
-echo ⏳ Limpando backups antigos do Windows...
-vssadmin delete shadows /for=C: /all /quiet >nul 2>&1
-
-:: Limpeza de arquivos de erro do Windows
-echo ⚠️ Limpando arquivos de erro do sistema...
-for %%F in ("C:\Windows\Minidump" "C:\Windows\memory.dmp") do (
-    del /s /q "%%F\*.*" >nul 2>&1
+tasklist | findstr /I "FortniteLauncher.exe" >nul
+if %errorlevel% equ 0 (
+    echo ✅ Fortnite detectado pelo Launcher! Aplicando otimizações...
+    goto fortnite_boost
 )
 
-:: Limpeza de restos de instalações antigas do Windows
-echo 🏚️ Limpando restos de instalações antigas do Windows...
-if exist "C:\Windows.old" (
-    del /s /q "C:\Windows.old\*.*" >nul 2>&1
+echo ⏳ Aguardando Fortnite ser iniciado...
+timeout /t 5 >nul
+goto fortnite_check
+
+:fortnite_boost
+:: Aumentar prioridade do processo do Fortnite
+echo 🚀 Definindo prioridade máxima para Fortnite...
+wmic process where name="FortniteClient-Win64-Shipping.exe" CALL setpriority 128 >nul 2>&1
+
+:: Liberar memória RAM antes de iniciar
+echo 💾 Liberando memória RAM...
+wmic os get FreePhysicalMemory,FreeVirtualMemory /format:list
+
+:: Desativar serviços desnecessários
+echo ⚙️ Desativando serviços desnecessários temporariamente...
+net stop "SysMain" >nul 2>&1
+net stop "WSearch" >nul 2>&1
+net stop "XboxGipSvc" >nul 2>&1
+net stop "XboxNetApiSvc" >nul 2>&1
+
+:: Aplicar otimizações de rede
+echo 🌍 Aplicando otimizações de rede...
+netsh int tcp set global autotuninglevel=normal
+netsh int tcp set global rss=enabled
+netsh int tcp set global chimney=enabled
+netsh int tcp set global dca=enabled
+netsh interface tcp set global timestamps=disabled
+netsh interface ipv4 set subinterface "Wi-Fi" mtu=1500 store=persistent
+
+:: Monitorar se Fortnite fecha
+:monitor_fortnite
+tasklist | findstr /I "FortniteClient-Win64-Shipping.exe" >nul
+if %errorlevel% equ 0 (
+    timeout /t 10 >nul
+    goto monitor_fortnite
 )
 
-:: Limpeza do OneDrive
-echo ☁️ Limpando arquivos temporários do OneDrive...
-for %%O in ("C:\Users\%USERNAME%\OneDrive\*.tmp" "C:\Users\%USERNAME%\OneDrive\*.log") do (
-    del /s /q "%%O" >nul 2>&1
-)
+:: Restaurar serviços após o Fortnite fechar
+echo 🎮 Fortnite foi fechado. Restaurando sistema...
+net start "SysMain" >nul 2>&1
+net start "WSearch" >nul 2>&1
+net start "XboxGipSvc" >nul 2>&1
+net start "XboxNetApiSvc" >nul 2>&1
 
-:: Verificação de erros no disco SEM TRAVAR O SISTEMA
-echo 🛠️ Verificando erros no disco...
-chkdsk C: /scan
-if %errorlevel% neq 0 (
-    echo 🚨 Erros detectados no disco! A verificacao completa sera agendada para a proxima reinicializacao.
-    echo Pressione qualquer tecla para agendar a verificacao completa do disco...
-    pause
-    chkdsk C: /F /R /X
-)
-
-:: Reiniciar processos essenciais
+:: Reiniciar Explorer para estabilidade
 echo 🔄 Reiniciando Explorer...
 start explorer.exe
 
 echo.
 echo ==================================================
-echo        ✅ LIMPEZA CONCLUÍDA COM SUCESSO ✅
+echo        ✅ LIMPEZA E OTIMIZAÇÃO CONCLUÍDA ✅
 echo ==================================================
 pause
+exit
